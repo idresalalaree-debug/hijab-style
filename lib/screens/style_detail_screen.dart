@@ -45,17 +45,27 @@ class StyleDetailScreen extends StatelessWidget {
           ],
           flexibleSpace: FlexibleSpaceBar(
             stretchModes: const [StretchMode.zoomBackground],
-            background: heroTag == null ? image : Hero(tag: heroTag!, child: image),
+            background: Stack(fit: StackFit.expand, children: [
+              heroTag == null ? image : Hero(tag: heroTag!, child: image),
+              // Rounded "sheet" lip so the content appears to slide over the photo.
+              Positioned(
+                left: 0,
+                right: 0,
+                bottom: -1,
+                height: 30,
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    color: cs.surface,
+                    borderRadius: const BorderRadius.vertical(top: Radius.circular(30)),
+                  ),
+                ),
+              ),
+            ]),
           ),
         ),
         SliverToBoxAdapter(
-          child: Container(
-            transform: Matrix4.translationValues(0, -28, 0),
-            decoration: BoxDecoration(
-              color: cs.surface,
-              borderRadius: const BorderRadius.vertical(top: Radius.circular(30)),
-            ),
-            padding: const EdgeInsets.fromLTRB(20, 24, 20, 0),
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(20, 4, 20, 0),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               if (cat != null)
                 Text(cat.name.of(locale).toUpperCase(),
@@ -76,7 +86,8 @@ class StyleDetailScreen extends StatelessWidget {
                   child: OutlinedButton.icon(
                     onPressed: () => app.toggleFavorite(style.id),
                     icon: Icon(fav ? Icons.favorite_rounded : Icons.favorite_outline_rounded, color: cs.primary),
-                    label: Text(fav ? s.navFavorites : s.addFavorite, maxLines: 1, overflow: TextOverflow.ellipsis),
+                    label: Text(s.navFavorites, maxLines: 1, overflow: TextOverflow.ellipsis,
+                        semanticsLabel: fav ? s.removeFavorite : s.addFavorite),
                   ),
                 ),
                 const SizedBox(width: 10),

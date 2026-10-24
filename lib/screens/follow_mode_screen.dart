@@ -136,17 +136,18 @@ class _FollowModeScreenState extends State<FollowModeScreen> {
             Padding(
               padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
               child: Row(children: [
-                Expanded(
-                  child: OutlinedButton.icon(
+                SizedBox(
+                  width: 62,
+                  height: 62,
+                  child: IconButton.outlined(
+                    tooltip: s.previous,
                     onPressed: _page == 0 ? null : () => _go(_page - 1),
                     icon: const Icon(Icons.arrow_back_rounded),
-                    label: Text(s.previous),
-                    style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(62)),
+                    style: IconButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
                   ),
                 ),
                 const SizedBox(width: 12),
                 Expanded(
-                  flex: 2,
                   child: FilledButton.icon(
                     onPressed: () => _go(_page + 1),
                     icon: Icon(_page == total - 1 ? Icons.check_rounded : Icons.arrow_forward_rounded),

@@ -54,6 +54,9 @@ class S {
   String pins(int p) => p == 0 ? _t('بلا دبابيس', 'No pins') : _t('$p دبابيس', '$p pins');
   String get fabric => _t('القماش المناسب', 'Best fabric');
   String get steps => _t('الخطوات', 'Steps');
+  String stepsCount(int n) => isAr
+      ? (n <= 10 ? '$n خطوات' : '$n خطوة')
+      : (n == 1 ? '1 step' : '$n steps');
   String get tips => _t('نصائح', 'Tips');
   String stepOf(int i, int n) => _t('الخطوة $i من $n', 'Step $i of $n');
   String get followMode => _t('ابدئي خطوة بخطوة', 'Start step by step');

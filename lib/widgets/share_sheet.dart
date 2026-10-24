@@ -146,7 +146,7 @@ class ShareCard extends StatelessWidget {
                 )),
             const SizedBox(height: 6),
             Text(
-              '${s.difficulty(style.difficulty)} · ${s.minutes(style.minutes)} · ${style.steps.length} ${s.steps}',
+              '${s.difficulty(style.difficulty)} · ${s.minutes(style.minutes)} · ${s.stepsCount(style.steps.length)}',
               style: TextStyle(color: Colors.white.withValues(alpha: 0.88), fontSize: 13.5),
             ),
             if (style.credit != null && style.credit!.photographer.isNotEmpty) ...[

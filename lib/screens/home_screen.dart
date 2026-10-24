@@ -24,7 +24,16 @@ class HomeScreen extends StatelessWidget {
       bottom: false,
       child: CustomScrollView(slivers: [
         SliverToBoxAdapter(child: _Header(tried: app.triedCount, total: app.styles.length)),
-        if (today != null) SliverToBoxAdapter(child: FadeSlideIn(child: _StyleOfDayCard(style: today))),
+        if (today != null)
+          SliverToBoxAdapter(
+            // Keep the hero card phone-sized on tablets and wide windows.
+            child: Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 560),
+                child: FadeSlideIn(child: _StyleOfDayCard(style: today)),
+              ),
+            ),
+          ),
         SliverToBoxAdapter(child: SectionHeader(title: s.categories)),
         SliverToBoxAdapter(child: _CategoryStrip(categories: app.categories)),
         if (quick.isNotEmpty) ...[

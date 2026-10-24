@@ -5,6 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,3 +36,12 @@ jobs:
             build/app/outputs/bundle/release/app-release.aab
             build/app/outputs/flutter-apk/app-release.apk
           retention-days: 14
+      # Artifact storage is unreachable from the signing machine, so the latest unsigned
+      # outputs are also kept on a single-commit orphan branch that is force-pushed each run.
+      - name: Publish to ci-builds branch
+        run: |
+          mkdir out && cp build/app/outputs/bundle/release/app-release.aab build/app/outputs/flutter-apk/app-release.apk out/
+          echo "$GITHUB_SHA" > out/SOURCE_SHA
+          cd out && git init -q -b ci-builds && git add . \
+            && git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -qm "Unsigned build of $GITHUB_SHA" \
+            && git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ci-builds

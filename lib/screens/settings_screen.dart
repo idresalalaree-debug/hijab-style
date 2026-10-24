@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../ads/ads.dart';
 import '../l10n/strings.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
@@ -94,6 +95,16 @@ class SettingsScreen extends StatelessWidget {
             title: Text(s.credits),
             trailing: const Icon(Icons.chevron_right_rounded),
             onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const CreditsScreen())),
+          ),
+          ValueListenableBuilder<bool>(
+            valueListenable: Ads.instance.privacyOptionsRequired,
+            builder: (context, required, _) => !required
+                ? const SizedBox.shrink()
+                : ListTile(
+                    leading: Icon(Icons.privacy_tip_outlined, color: cs.secondary),
+                    title: Text(s.privacyOptions),
+                    onTap: Ads.instance.showPrivacyOptions,
+                  ),
           ),
           ListTile(
             leading: Icon(Icons.info_outline_rounded, color: cs.secondary),

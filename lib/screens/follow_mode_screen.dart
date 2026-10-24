@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
+import '../ads/ads.dart';
 import '../l10n/strings.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
@@ -18,6 +19,7 @@ class FollowModeScreen extends StatefulWidget {
 class _FollowModeScreenState extends State<FollowModeScreen> {
   final _pages = PageController();
   int _page = 0;
+  bool _reachedEnd = false;
 
   @override
   void initState() {
@@ -27,6 +29,8 @@ class _FollowModeScreenState extends State<FollowModeScreen> {
 
   @override
   void dispose() {
+    // Ads only between tutorials: after the last step, never mid-way.
+    if (_reachedEnd) WidgetsBinding.instance.addPostFrameCallback((_) => Ads.instance.onTutorialFinished());
     _setWakelock(false);
     _pages.dispose();
     super.dispose();
@@ -94,7 +98,10 @@ class _FollowModeScreenState extends State<FollowModeScreen> {
             child: PageView.builder(
               controller: _pages,
               itemCount: total + 1,
-              onPageChanged: (p) => setState(() => _page = p),
+              onPageChanged: (p) => setState(() {
+                _page = p;
+                if (p == total) _reachedEnd = true;
+              }),
               itemBuilder: (context, i) {
                 if (i == total) {
                   return _DonePage(

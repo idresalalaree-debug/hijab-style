@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../ads/ads.dart';
 import '../app.dart';
 import '../data/style_repository.dart';
 import '../l10n/strings.dart';
@@ -40,6 +41,7 @@ class HomeScreen extends StatelessWidget {
           SliverToBoxAdapter(child: SectionHeader(title: s.quickStyles, action: s.seeAll, onAction: () => ShellScope.of(context).go(1))),
           SliverToBoxAdapter(child: _HorizontalStyles(styles: quick, heroPrefix: 'quick')),
         ],
+        const SliverToBoxAdapter(child: InlineBanner()),
         if (occasions.isNotEmpty) ...[
           SliverToBoxAdapter(child: SectionHeader(title: s.occasionStyles)),
           SliverToBoxAdapter(child: _HorizontalStyles(styles: occasions, heroPrefix: 'occ')),

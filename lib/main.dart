@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'ads/ads.dart';
 import 'app.dart';
 import 'data/style_repository.dart';
 import 'state/app_state.dart';
@@ -16,6 +17,7 @@ Future<void> main() async {
   runApp(HijabStyleApp(state: state));
   // Optional: pick up new styles from the remote feed; silently ignored offline.
   state.refreshRemote();
+  Ads.instance.start();
 }
 
 Stream<LicenseEntry> _fontLicenses() async* {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../ads/ads.dart';
 import '../l10n/strings.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
@@ -127,6 +128,7 @@ class StyleDetailScreen extends StatelessWidget {
                   body: style.tips.map((t) => '• ${t.of(locale)}').join('\n'),
                 ),
               ],
+              const InlineBanner(),
               if (style.credit != null) ...[
                 const SizedBox(height: 18),
                 if (style.illustrative)

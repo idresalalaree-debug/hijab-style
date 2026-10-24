@@ -36,7 +36,7 @@ Pexels License: https://www.pexels.com/license/ · Unsplash License: https://uns
 | Back-Draped Wrap | `assets/images/styles/back-draped.webp` | Pexels | rizkysabriansyah | Pexels License | yes | https://www.pexels.com/photo/a-woman-in-black-hijab-smiling-8680897/ |
 | Multi-Layered | `assets/images/styles/multi-layered.webp` | Pexels | majestic project | Pexels License | no (illustrative) | https://www.pexels.com/photo/woman-in-white-hijab-7451485/ |
 | Quick Two-Layer | `assets/images/styles/quick-two-layer.webp` | Pexels | audy of course | Pexels License | yes | https://www.pexels.com/photo/portrait-of-smiling-woman-in-eyeglasses-20532523/ |
-| Bandana Underlayer | `assets/images/styles/bandana-underlayer.webp` | Unsplash | not recorded | Unsplash License | no (illustrative) | https://unsplash.com/photos/a-woman-in-a-purple-hijab-picking-flowers-from-a-tree-SdchQSCd7wc |
+| Bandana Underlayer | `assets/images/styles/bandana-underlayer.webp` | Pexels | not recorded | Pexels License | no (illustrative) | https://www.pexels.com/photo/a-woman-in-green-abaya-and-hijab-7249214/ |
 | Simple Back-Knot Scarf | `assets/images/styles/simple-back-knot-scarf.webp` | Unsplash | not recorded | Unsplash License | no (illustrative) | https://unsplash.com/photos/a-woman-in-a-hijab-standing-on-a-balcony-QoppQTk_sS4 |
 | Earring-Showing Wrap | `assets/images/styles/earring-showing.webp` | Unsplash | not recorded | Unsplash License | yes | https://unsplash.com/photos/woman-wearing-gray-long-sleeved-top-and-gray-hijab-right-hand-on-cheek-hxLv1jqP0_o |
 | Turkish Style | `assets/images/styles/turkish-style.webp` | Unsplash | not recorded | Unsplash License | yes | https://unsplash.com/photos/a-person-wearing-a-head-scarf-and-sunglasses-UeWAEduktB8 |
@@ -45,16 +45,16 @@ Pexels License: https://www.pexels.com/license/ · Unsplash License: https://uns
 | Instant Hijab | `assets/images/styles/instant-hijab.webp` | Unsplash | not recorded | Unsplash License | yes | https://unsplash.com/photos/woman-in-black-hijab-and-black-coat-QDRCvXpP18U |
 | Simple Tudung Bawal | `assets/images/styles/tudung-bawal.webp` | Pexels | tuti isnawati | Pexels License | yes | https://www.pexels.com/photo/stylish-woman-in-hijab-with-wooden-background-39221178/ |
 | Balaclava Hijab | `assets/images/styles/balaclava-hijab.webp` | Pexels | stylish | Pexels License | no (illustrative) | https://www.pexels.com/photo/smiling-woman-in-hijab-relaxing-on-bench-outdoors-36513014/ |
-| Modern Turban | `assets/images/styles/modern-turban.webp` | Unsplash | not recorded | Unsplash License | no (illustrative) | https://unsplash.com/photos/woman-in-black-hijab-headdress-during-daytime-WR5hZDLv79A |
-| Chiffon Turban | `assets/images/styles/chiffon-turban.webp` | Pexels | werner pfennig | Pexels License | no (illustrative) | https://www.pexels.com/photo/a-woman-wearing-a-hijab-6477476/ |
+| Modern Turban | `assets/images/styles/modern-turban.webp` | Pexels | cottonbro studio | Pexels License | yes | https://www.pexels.com/photo/woman-in-black-blazer-wearing-a-turban-7805041/ |
+| Chiffon Turban | `assets/images/styles/chiffon-turban.webp` | Pexels | cottonbro studio | Pexels License | yes | https://www.pexels.com/photo/woman-wearing-a-blazer-and-turban-7807115/ |
 | Criss-Cross Turban | `assets/images/styles/criss-cross-turban.webp` | Pexels | seyda nur yuce | Pexels License | no (illustrative) | https://www.pexels.com/photo/a-woman-in-black-hijab-sitting-near-the-bare-tree-14253579/ |
-| Top Knot | `assets/images/styles/top-knot.webp` | Pexels | caspersomia | Pexels License | no (illustrative) | https://www.pexels.com/photo/young-woman-standing-on-an-escalator-20433552/ |
+| Top Knot | `assets/images/styles/top-knot.webp` | Pexels | Mwabonje Ringa | Pexels License | yes | https://www.pexels.com/photo/photo-of-woman-wearing-turban-1820920/ |
 | Parisian Knot | `assets/images/styles/parisian-knot.webp` | Pexels | arif isomoto | Pexels License | no (illustrative) | https://www.pexels.com/photo/smiling-woman-in-white-and-pink-floral-blouse-standing-near-green-plants-10145415/ |
 | Whimsical Bow | `assets/images/styles/whimsical-bow.webp` | Pexels | elkayslense | Pexels License | no (illustrative) | https://www.pexels.com/photo/stylish-woman-wearing-traditional-attire-outdoors-36204399/ |
 | Butterfly Style | `assets/images/styles/butterfly-style.webp` | Unsplash | not recorded | Unsplash License | no (illustrative) | https://unsplash.com/photos/a-woman-in-a-blue-veil-sitting-on-a-bench-f-DrspzOsJQ |
-| Crown Style | `assets/images/styles/crown-style.webp` | Pexels | ari mustofa | Pexels License | no (illustrative) | https://www.pexels.com/photo/elegant-woman-in-hijab-with-bokeh-background-34414157/ |
-| Classic Wrap & Veil | `assets/images/styles/classic-veil.webp` | Pexels | mhd_photos | Pexels License | no (illustrative) | https://www.pexels.com/photo/elegant-woman-in-white-abaya-outdoors-31049717/ |
-| Crystal Headpiece | `assets/images/styles/crystal-headpiece.webp` | Pexels | moph | Pexels License | no (illustrative) | https://www.pexels.com/photo/stylish-woman-in-hijab-outside-coffee-shop-31861864/ |
-| Modest Bridal Turban | `assets/images/styles/bridal-turban.webp` | Unsplash | not recorded | Unsplash License | no (illustrative) | https://unsplash.com/photos/woman-in-black-hijab-sitting-on-brown-wooden-bench-93vwMXC1r-w |
+| Crown Style | `assets/images/styles/crown-style.webp` | Pexels | not recorded | Pexels License | no (illustrative) | https://www.pexels.com/photo/photo-of-woman-wearing-hijab-and-crown-4503318/ |
+| Classic Wrap & Veil | `assets/images/styles/classic-veil.webp` | Pexels | Zero Pamungkas | Pexels License | yes | https://www.pexels.com/photo/bride-in-traditional-wedding-dress-12898461/ |
+| Crystal Headpiece | `assets/images/styles/crystal-headpiece.webp` | Pexels | IN STORY | Pexels License | yes | https://www.pexels.com/photo/smiling-bride-in-crown-and-hijab-19020843/ |
+| Modest Bridal Turban | `assets/images/styles/bridal-turban.webp` | Pexels | Abdulkadir muhammad sani | Pexels License | yes | https://www.pexels.com/photo/elegant-woman-in-red-dress-with-turban-34020374/ |
 
 Fonts (assets/fonts): Tajawal, El Messiri, Playfair Display, SIL Open Font License 1.1 (texts in assets/licenses).

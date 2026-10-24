@@ -1622,9 +1622,9 @@
    "image": "assets/images/styles/bandana-underlayer.webp",
    "credit": {
     "photographer": "",
-    "source": "Unsplash",
-    "license": "Unsplash License",
-    "url": "https://unsplash.com/photos/a-woman-in-a-purple-hijab-picking-flowers-from-a-tree-SdchQSCd7wc"
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/a-woman-in-green-abaya-and-hijab-7249214/"
    },
    "illustrative": true
   },
@@ -2085,12 +2085,11 @@
    ],
    "image": "assets/images/styles/modern-turban.webp",
    "credit": {
-    "photographer": "",
-    "source": "Unsplash",
-    "license": "Unsplash License",
-    "url": "https://unsplash.com/photos/woman-in-black-hijab-headdress-during-daytime-WR5hZDLv79A"
-   },
-   "illustrative": true
+    "photographer": "cottonbro studio",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/woman-in-black-blazer-wearing-a-turban-7805041/"
+   }
   },
   {
    "id": "chiffon-turban",
@@ -2138,12 +2137,11 @@
    "tips": [],
    "image": "assets/images/styles/chiffon-turban.webp",
    "credit": {
-    "photographer": "werner pfennig",
+    "photographer": "cottonbro studio",
     "source": "Pexels",
     "license": "Pexels License",
-    "url": "https://www.pexels.com/photo/a-woman-wearing-a-hijab-6477476/"
-   },
-   "illustrative": true
+    "url": "https://www.pexels.com/photo/woman-wearing-a-blazer-and-turban-7807115/"
+   }
   },
   {
    "id": "criss-cross-turban",
@@ -2244,12 +2242,11 @@
    "tips": [],
    "image": "assets/images/styles/top-knot.webp",
    "credit": {
-    "photographer": "caspersomia",
+    "photographer": "Mwabonje Ringa",
     "source": "Pexels",
     "license": "Pexels License",
-    "url": "https://www.pexels.com/photo/young-woman-standing-on-an-escalator-20433552/"
-   },
-   "illustrative": true
+    "url": "https://www.pexels.com/photo/photo-of-woman-wearing-turban-1820920/"
+   }
   },
   {
    "id": "parisian-knot",
@@ -2455,10 +2452,10 @@
    "tips": [],
    "image": "assets/images/styles/crown-style.webp",
    "credit": {
-    "photographer": "ari mustofa",
+    "photographer": "",
     "source": "Pexels",
     "license": "Pexels License",
-    "url": "https://www.pexels.com/photo/elegant-woman-in-hijab-with-bokeh-background-34414157/"
+    "url": "https://www.pexels.com/photo/photo-of-woman-wearing-hijab-and-crown-4503318/"
    },
    "illustrative": true
   },
@@ -2505,12 +2502,11 @@
    "tips": [],
    "image": "assets/images/styles/classic-veil.webp",
    "credit": {
-    "photographer": "mhd_photos",
+    "photographer": "Zero Pamungkas",
     "source": "Pexels",
     "license": "Pexels License",
-    "url": "https://www.pexels.com/photo/elegant-woman-in-white-abaya-outdoors-31049717/"
-   },
-   "illustrative": true
+    "url": "https://www.pexels.com/photo/bride-in-traditional-wedding-dress-12898461/"
+   }
   },
   {
    "id": "crystal-headpiece",
@@ -2559,12 +2555,11 @@
    "tips": [],
    "image": "assets/images/styles/crystal-headpiece.webp",
    "credit": {
-    "photographer": "moph",
+    "photographer": "IN STORY",
     "source": "Pexels",
     "license": "Pexels License",
-    "url": "https://www.pexels.com/photo/stylish-woman-in-hijab-outside-coffee-shop-31861864/"
-   },
-   "illustrative": true
+    "url": "https://www.pexels.com/photo/smiling-bride-in-crown-and-hijab-19020843/"
+   }
   },
   {
    "id": "bridal-turban",
@@ -2613,12 +2608,11 @@
    "tips": [],
    "image": "assets/images/styles/bridal-turban.webp",
    "credit": {
-    "photographer": "",
-    "source": "Unsplash",
-    "license": "Unsplash License",
-    "url": "https://unsplash.com/photos/woman-in-black-hijab-sitting-on-brown-wooden-bench-93vwMXC1r-w"
-   },
-   "illustrative": true
+    "photographer": "Abdulkadir muhammad sani",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/elegant-woman-in-red-dress-with-turban-34020374/"
+   }
   }
  ]
 }

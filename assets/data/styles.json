@@ -1,166 +1,2424 @@
 {
-  "schema": 1,
-  "categories": [
-    {"id": "everyday", "icon": "sun", "name": {"ar": "يومية", "en": "Everyday"}},
-    {"id": "pashmina", "icon": "pashmina", "name": {"ar": "باشمينا", "en": "Pashmina"}},
-    {"id": "drape", "icon": "drape", "name": {"ar": "انسدال ورقبة", "en": "Drapes & neck"}},
-    {"id": "layered", "icon": "layers", "name": {"ar": "طبقات", "en": "Layered"}},
-    {"id": "regional", "icon": "globe", "name": {"ar": "من العالم", "en": "Around the world"}},
-    {"id": "turban", "icon": "turban", "name": {"ar": "تربان وعقد", "en": "Turbans & knots"}},
-    {"id": "bridal", "icon": "crown", "name": {"ar": "عرائس ومناسبات", "en": "Bridal & events"}}
-  ],
-  "styles": [
+ "schema": 1,
+ "categories": [
+  {
+   "id": "everyday",
+   "icon": "sun",
+   "name": {
+    "ar": "يومية",
+    "en": "Everyday"
+   }
+  },
+  {
+   "id": "pashmina",
+   "icon": "pashmina",
+   "name": {
+    "ar": "باشمينا",
+    "en": "Pashmina"
+   }
+  },
+  {
+   "id": "drape",
+   "icon": "drape",
+   "name": {
+    "ar": "انسدال ورقبة",
+    "en": "Drapes & neck"
+   }
+  },
+  {
+   "id": "layered",
+   "icon": "layers",
+   "name": {
+    "ar": "طبقات",
+    "en": "Layered"
+   }
+  },
+  {
+   "id": "regional",
+   "icon": "globe",
+   "name": {
+    "ar": "من العالم",
+    "en": "Around the world"
+   }
+  },
+  {
+   "id": "turban",
+   "icon": "turban",
+   "name": {
+    "ar": "تربان وعقد",
+    "en": "Turbans & knots"
+   }
+  },
+  {
+   "id": "bridal",
+   "icon": "crown",
+   "name": {
+    "ar": "عرائس ومناسبات",
+    "en": "Bridal & events"
+   }
+  }
+ ],
+ "styles": [
+  {
+   "id": "classic-wrap",
+   "category": "everyday",
+   "difficulty": 1,
+   "minutes": 3,
+   "pins": 2,
+   "tags": [
+    "work"
+   ],
+   "name": {
+    "ar": "اللفة الكلاسيكية",
+    "en": "Classic Wrap"
+   },
+   "summary": {
+    "ar": "اللفة الأساسية لكل يوم: طرف طويل يلتف حول الرأس ويُثبَّت جانبًا.",
+    "en": "The everyday essential: the long end wraps around the head and pins at the side."
+   },
+   "fabrics": {
+    "ar": "شيفون، أو أي طرحة مستطيلة",
+    "en": "Chiffon or any rectangular scarf"
+   },
+   "steps": [
     {
-      "id": "classic-wrap",
-      "category": "everyday",
-      "difficulty": 1,
-      "minutes": 3,
-      "pins": 2,
-      "tags": ["work"],
-      "name": {"ar": "اللفة الكلاسيكية", "en": "Classic Wrap"},
-      "summary": {"ar": "اللفة الأساسية لكل يوم: طرف طويل يلتف حول الرأس ويُثبَّت جانبًا.", "en": "The everyday essential: the long end wraps around the head and pins at the side."},
-      "fabrics": {"ar": "شيفون، أو أي طرحة مستطيلة", "en": "Chiffon or any rectangular scarf"},
-      "steps": [
-        {"ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.", "en": "Put on an underscarf and secure it so the hijab doesn't slip."},
-        {"ar": "ضعي الطرحة على رأسكِ بحيث يكون أحد الطرفين أطول بكثير من الآخر (تقريبًا 80 إلى 20).", "en": "Place the scarf on your head with one end much longer than the other (about 80:20)."},
-        {"ar": "ثبّتي الطرفين معًا بدبوس تحت الذقن.", "en": "Pin both ends together under your chin."},
-        {"ar": "مرّري الطرف الطويل فوق رأسكِ إلى الجهة الأخرى.", "en": "Bring the long end over the top of your head to the other side."},
-        {"ar": "ثبّتي الطرف بدبوس فوق الأذن أو خلف الرأس، ورتّبي الطيات.", "en": "Pin it above the ear or at the back of the head, then smooth the folds."}
-      ],
-      "tips": [{"ar": "ضعي الدبوس في القماش والبونيه معًا لثبات أكثر.", "en": "Pin through both the scarf and the underscarf for extra hold."}]
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
     },
     {
-      "id": "neck-wrap",
-      "category": "drape",
-      "difficulty": 1,
-      "minutes": 2,
-      "pins": 1,
-      "tags": ["work", "glasses"],
-      "name": {"ar": "لفة الرقبة", "en": "Neck Wrap"},
-      "summary": {"ar": "الطرف الطويل يلف الرقبة مرة واحدة وينسدل بنعومة. سريعة ومرتبة.", "en": "The long end wraps once around the neck and drapes softly. Quick and neat."},
-      "fabrics": {"ar": "جيرسي، مودال", "en": "Jersey, modal"},
-      "image": "assets/images/styles/neck-wrap.webp",
-      "credit": {"photographer": "Rizky Sabriansyah", "source": "Pexels", "license": "Pexels License", "url": "https://www.pexels.com/photo/a-woman-in-black-hijab-smiling-8680897/"},
-      "steps": [
-        {"ar": "ارتدي البونيه، ثم ضعي الطرحة بحيث يكون أحد الطرفين أطول (تقريبًا 80 إلى 20).", "en": "Wear an underscarf, then drape the scarf with one end longer (about 80:20)."},
-        {"ar": "ثبّتي الطرحة بدبوس تحت الذقن.", "en": "Pin the scarf under your chin."},
-        {"ar": "لفّي الطرف الطويل حول رقبتكِ مرة واحدة من الخلف إلى الأمام.", "en": "Wrap the long end once around your neck, back to front."},
-        {"ar": "اتركي الطرف ينسدل على الكتف أو الصدر ورتّبيه.", "en": "Let the end fall over your shoulder or chest and adjust it."}
-      ],
-      "tips": []
+     "ar": "ضعي الطرحة على رأسكِ بحيث يكون أحد الطرفين أطول بكثير من الآخر (تقريبًا 80 إلى 20).",
+     "en": "Place the scarf on your head with one end much longer than the other (about 80:20)."
     },
     {
-      "id": "loose-wrap",
-      "category": "drape",
-      "difficulty": 1,
-      "minutes": 2,
-      "pins": 1,
-      "tags": ["summer"],
-      "name": {"ar": "اللفة الفضفاضة", "en": "Loose Wrap"},
-      "summary": {"ar": "طيات غير مشدودة بعيدًا عن الخدين، تهوية جيدة لأيام الصيف.", "en": "Relaxed folds away from the cheeks for good airflow on summer days."},
-      "fabrics": {"ar": "شيفون، جورجيت، كريب", "en": "Chiffon, georgette, crepe"},
-      "image": "assets/images/styles/loose-wrap.webp",
-      "credit": {"photographer": "Khaled Ghareeb", "source": "Unsplash", "license": "Unsplash License", "url": "https://unsplash.com/photos/woman-in-white-hijab-and-white-long-sleeve-shirt-xZSEvSlHRv8"},
-      "steps": [
-        {"ar": "ضعي الطرحة على رأسكِ بطرفين شبه متساويين.", "en": "Place the scarf on your head with nearly equal ends."},
-        {"ar": "ثبّتيها بدبوس واحد تحت الذقن دون شدّ القماش على الوجه.", "en": "Secure it with one pin under the chin without pulling the fabric tight."},
-        {"ar": "اسحبي الطرفين برفق إلى الأمام واتركيهما ينسدلان بحرية.", "en": "Gently bring both ends forward and let them fall freely."},
-        {"ar": "وسّعي الطيات قليلًا بعيدًا عن الخدين للتهوية.", "en": "Loosen the folds slightly away from the cheeks for airflow."}
-      ],
-      "tips": []
+     "ar": "ثبّتي الطرفين معًا بدبوس تحت الذقن.",
+     "en": "Pin both ends together under your chin."
     },
     {
-      "id": "full-coverage",
-      "category": "drape",
-      "difficulty": 1,
-      "minutes": 3,
-      "pins": 2,
-      "tags": ["full-coverage"],
-      "name": {"ar": "التغطية الكاملة", "en": "Full Coverage"},
-      "summary": {"ar": "الطرف الطويل يلتف حول الرأس، والجزء الزائد يُسحب ليغطي الصدر.", "en": "The long end wraps around the head and the extra fabric covers the chest."},
-      "fabrics": {"ar": "مودال، جيرسي، قطن", "en": "Modal, jersey, cotton"},
-      "image": "assets/images/styles/full-coverage.webp",
-      "credit": {"photographer": "Nomso Obiano", "source": "Pexels", "license": "Pexels License", "url": "https://www.pexels.com/photo/women-posing-in-red-hijabs-16339418/"},
-      "steps": [
-        {"ar": "ضعي الطرحة بحيث يكون أحد الطرفين أطول بكثير (تقريبًا 90 إلى 10).", "en": "Place the scarf with one end much longer (about 90:10)."},
-        {"ar": "ثبّتي الطرحة تحت الذقن بدبوس.", "en": "Pin the scarf under your chin."},
-        {"ar": "لفّي الطرف الطويل حول رأسكِ مرة واحدة.", "en": "Wrap the long end once around your head."},
-        {"ar": "اسحبي القماش الزائد إلى الأمام ليغطي الصدر، وثبّتيه على الكتف.", "en": "Pull the extra fabric forward over your chest and pin it at the shoulder."}
-      ],
-      "tips": []
+     "ar": "مرّري الطرف الطويل فوق رأسكِ إلى الجهة الأخرى.",
+     "en": "Bring the long end over the top of your head to the other side."
     },
     {
-      "id": "simple-pashmina",
-      "category": "pashmina",
-      "difficulty": 1,
-      "minutes": 2,
-      "pins": 1,
-      "tags": ["summer"],
-      "name": {"ar": "الباشمينا البسيطة", "en": "Simple Pashmina"},
-      "summary": {"ar": "طرف يُطوى حول الرقبة ويُثبَّت. خفيفة ومناسبة للحر.", "en": "One end folds around the neck and pins in place. Light and summer-friendly."},
-      "fabrics": {"ar": "فسكوز", "en": "Viscose"},
-      "steps": [
-        {"ar": "ضعي الباشمينا على رأسكِ بحيث يكون أحد الطرفين أطول قليلًا.", "en": "Place the pashmina with one end slightly longer."},
-        {"ar": "ثبّتيها بدبوس تحت الذقن.", "en": "Pin it under your chin."},
-        {"ar": "مرّري الطرف الأطول حول الرقبة إلى الجهة المقابلة.", "en": "Bring the longer end around your neck to the opposite side."},
-        {"ar": "ثبّتي الطرف بدبوس خلف الكتف، واتركي الآخر ينسدل.", "en": "Pin it behind the shoulder and let the other end fall."}
-      ],
-      "tips": []
-    },
-    {
-      "id": "modern-turban",
-      "category": "turban",
-      "difficulty": 2,
-      "minutes": 4,
-      "pins": 0,
-      "tags": ["no-pins"],
-      "name": {"ar": "التربان العصري", "en": "Modern Turban"},
-      "summary": {"ar": "لفّ متكرر إلى الخلف بشكل مشدود يبرز ملامح الوجه.", "en": "Repeated wraps to the back for a snug look that frames the face."},
-      "fabrics": {"ar": "جيرسي أو حرير", "en": "Jersey or silk"},
-      "steps": [
-        {"ar": "ارتدي بونيه يغطي الشعر بالكامل.", "en": "Wear an underscarf that covers all your hair."},
-        {"ar": "ضعي منتصف الطرحة على الجبهة، والطرفان إلى الخلف.", "en": "Place the middle of the scarf on your forehead with both ends at the back."},
-        {"ar": "تقاطعي بالطرفين عند مؤخرة الرأس ثم أعيديهما إلى الأمام.", "en": "Cross the ends at the nape and bring them back to the front."},
-        {"ar": "تقاطعي بهما مرة أخرى فوق الجبهة ثم أعيديهما إلى الخلف.", "en": "Cross them again over the forehead and take them back."},
-        {"ar": "ادسسي الأطراف تحت الطبقات عند الخلف حتى تثبت.", "en": "Tuck the ends under the layers at the back to secure."}
-      ],
-      "tips": [{"ar": "التربان لا يغطي الرقبة؛ يمكن ارتداء بونيه برقبة تحته.", "en": "A turban leaves the neck uncovered; wear a neck-covering underscarf if you prefer."}]
-    },
-    {
-      "id": "turkish-style",
-      "category": "regional",
-      "difficulty": 2,
-      "minutes": 4,
-      "pins": 1,
-      "tags": [],
-      "name": {"ar": "اللفة التركية", "en": "Turkish Style"},
-      "summary": {"ar": "طرحة مطوية تُعقد تحت الذقن مع مقدمة مثلثة مرتبة.", "en": "A folded scarf tied under the chin with a neat triangular front."},
-      "fabrics": {"ar": "طرحة مربعة بقوام متوسط", "en": "Medium-weight square scarf"},
-      "steps": [
-        {"ar": "اطوي الطرحة المربعة على شكل مثلث.", "en": "Fold the square scarf into a triangle."},
-        {"ar": "ضعي الحافة الطويلة على الجبهة، والطرف المثلث إلى الخلف.", "en": "Place the long edge on your forehead with the point at the back."},
-        {"ar": "اجمعي الطرفين تحت الذقن واعقديهما عقدة صغيرة أو ثبّتيهما بدبوس.", "en": "Bring both ends under your chin and tie a small knot or pin them."},
-        {"ar": "رتّبي المقدمة لتأخذ شكلًا مثلثًا مستويًا.", "en": "Shape the front into a smooth triangle."}
-      ],
-      "tips": []
-    },
-    {
-      "id": "classic-veil",
-      "category": "bridal",
-      "difficulty": 2,
-      "minutes": 6,
-      "pins": 4,
-      "tags": ["wedding", "occasion"],
-      "name": {"ar": "الكلاسيكية مع طرحة العروس", "en": "Classic Wrap & Veil"},
-      "summary": {"ar": "لفة كلاسيكية أنيقة مع طرحة زفاف مثبتة من الخلف.", "en": "An elegant classic wrap with a bridal veil pinned at the back."},
-      "fabrics": {"ar": "شيفون", "en": "Chiffon"},
-      "steps": [
-        {"ar": "نفّذي اللفة الكلاسيكية وثبّتيها جيدًا بالدبابيس.", "en": "Do the classic wrap and secure it well with pins."},
-        {"ar": "ضعي طرحة الزفاف على قمة الرأس من الخلف.", "en": "Place the bridal veil on the crown of your head, toward the back."},
-        {"ar": "ثبّتي الطرحة بدبابيس صغيرة مخفية في الحجاب.", "en": "Secure the veil with small pins hidden in the hijab."},
-        {"ar": "وزّعي الطرحة بالتساوي على الكتفين والظهر.", "en": "Spread the veil evenly over your shoulders and back."}
-      ],
-      "tips": []
+     "ar": "ثبّتي الطرف بدبوس فوق الأذن أو خلف الرأس، ورتّبي الطيات.",
+     "en": "Pin it above the ear or at the back of the head, then smooth the folds."
     }
-  ]
+   ],
+   "tips": [
+    {
+     "ar": "ضعي الدبوس في القماش والبونيه معًا لثبات أكثر.",
+     "en": "Pin through both the scarf and the underscarf for extra hold."
+    }
+   ],
+   "image": "assets/images/styles/classic-wrap.webp",
+   "credit": {
+    "photographer": "pnw prod",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/close-up-photo-of-a-woman-wearing-hijab-9218732/"
+   }
+  },
+  {
+   "id": "clean-symmetric-square",
+   "category": "everyday",
+   "difficulty": 1,
+   "minutes": 3,
+   "pins": 1,
+   "tags": [
+    "work"
+   ],
+   "name": {
+    "ar": "اللفة المربعة المتماثلة",
+    "en": "Clean Symmetric Square"
+   },
+   "summary": {
+    "ar": "طرحة مربعة متماثلة تُثبَّت تحت الذقن، وطرفاها ينسدلان بالتساوي.",
+    "en": "A symmetric square scarf pinned under the chin with both ends falling evenly."
+   },
+   "fabrics": {
+    "ar": "طرحة مربعة بقوام متماسك",
+    "en": "Structured square scarf"
+   },
+   "steps": [
+    {
+     "ar": "اطوي الطرحة المربعة على شكل مثلث.",
+     "en": "Fold the square scarf into a triangle."
+    },
+    {
+     "ar": "ضعي الحافة المطوية على جبهتكِ، والطرفان متساويان على الجانبين.",
+     "en": "Place the folded edge on your forehead with both ends equal on each side."
+    },
+    {
+     "ar": "ثبّتي الطرفين بدبوس تحت الذقن مع إبقاء الوجه محاطًا بشكل متماثل.",
+     "en": "Pin the ends under your chin, keeping the frame around your face symmetric."
+    },
+    {
+     "ar": "اتركي الطرفين ينسدلان على الصدر، ورتّبي الحافة الأمامية لتكون مستقيمة.",
+     "en": "Let both ends fall over your chest and straighten the front edge."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "طرحة بقوام متماسك تحافظ على الشكل المستقيم للحافة.",
+     "en": "A structured fabric keeps the front edge crisp."
+    }
+   ],
+   "image": "assets/images/styles/clean-symmetric-square.webp",
+   "credit": {
+    "photographer": "skylight views",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-woman-wearing-hijab-portrait-36009240/"
+   }
+  },
+  {
+   "id": "asymmetric-layered-square",
+   "category": "everyday",
+   "difficulty": 2,
+   "minutes": 4,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "المربعة بطبقات غير متماثلة",
+    "en": "Asymmetric Layered Square"
+   },
+   "summary": {
+    "ar": "طرحة مربعة يُثبَّت طرفاها بشكل غير متماثل: واحد على الكتف وآخر على الجانب.",
+    "en": "A square scarf with ends pinned asymmetrically: one on the shoulder, one at the side."
+   },
+   "fabrics": {
+    "ar": "فوال أو طرحة مربعة خفيفة",
+    "en": "Voile or a light square scarf"
+   },
+   "steps": [
+    {
+     "ar": "اطوي الطرحة المربعة على شكل مثلث وضعيها على رأسكِ بطرفين متساويين.",
+     "en": "Fold the square into a triangle and place it with equal ends."
+    },
+    {
+     "ar": "ثبّتي الطرحة بدبوس تحت الذقن.",
+     "en": "Pin under your chin."
+    },
+    {
+     "ar": "ارفعي أحد الطرفين وثبّتيه على الكتف المقابل.",
+     "en": "Lift one end and pin it on the opposite shoulder."
+    },
+    {
+     "ar": "اتركي الطرف الآخر ينسدل على الجانب، وكوّني منه طبقة ناعمة وثبّتيها على الكتف.",
+     "en": "Let the other end fall at the side, shape it into a soft layer and pin it at the shoulder."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/asymmetric-layered-square.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/a-woman-in-a-hijab-leaning-against-a-wall-wTBiwuVhBRU"
+   }
+  },
+  {
+   "id": "square-neck-wrap",
+   "category": "everyday",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "المربعة الملفوفة حول الرقبة",
+    "en": "Square Neck Wrap"
+   },
+   "summary": {
+    "ar": "طرف إلى الخلف وطرف يُوسَّع على الجانب مع لفّة خفيفة حول الرقبة.",
+    "en": "One end goes back, the other is widened at the side with a light wrap around the neck."
+   },
+   "fabrics": {
+    "ar": "طرحة مربعة خفيفة",
+    "en": "Light square scarf"
+   },
+   "steps": [
+    {
+     "ar": "اطوي الطرحة على شكل مثلث وضعيها على رأسكِ.",
+     "en": "Fold the scarf into a triangle and place it on your head."
+    },
+    {
+     "ar": "ثبّتيها تحت الذقن بدبوس.",
+     "en": "Pin it under your chin."
+    },
+    {
+     "ar": "مرّري أحد الطرفين حول الرقبة إلى الخلف وثبّتيه.",
+     "en": "Take one end around your neck to the back and pin it."
+    },
+    {
+     "ar": "افردي الطرف الآخر على الجانب ليغطي الكتف، وثبّتيه.",
+     "en": "Spread the other end at the side to cover your shoulder and pin it."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "chest-covering-square",
+   "category": "everyday",
+   "difficulty": 1,
+   "minutes": 3,
+   "pins": 2,
+   "tags": [
+    "full-coverage"
+   ],
+   "name": {
+    "ar": "المربعة الساترة للصدر",
+    "en": "Chest-Covering Square"
+   },
+   "summary": {
+    "ar": "طرف إلى الخلف وطرف إلى الجانب المقابل مع بروش، فيغطي الحجاب الصدر كاملًا.",
+    "en": "One end to the back, the other across to the opposite side with a brooch, fully covering the chest."
+   },
+   "fabrics": {
+    "ar": "Paris Japan، فوال، بوليكوتون",
+    "en": "Paris Japan, voile, polycotton"
+   },
+   "steps": [
+    {
+     "ar": "اطوي طرحة مربعة كبيرة على شكل مثلث وضعيها على رأسكِ.",
+     "en": "Fold a large square scarf into a triangle and place it on your head."
+    },
+    {
+     "ar": "ثبّتيها بدبوس تحت الذقن.",
+     "en": "Pin it under your chin."
+    },
+    {
+     "ar": "ارمي أحد الطرفين إلى الخلف فوق الكتف.",
+     "en": "Throw one end back over your shoulder."
+    },
+    {
+     "ar": "اسحبي الطرف الآخر عبر الصدر إلى الكتف المقابل وثبّتيه ببروش.",
+     "en": "Bring the other end across your chest to the opposite shoulder and secure with a brooch."
+    },
+    {
+     "ar": "وزّعي القماش ليغطي الصدر بالكامل.",
+     "en": "Spread the fabric so it covers the chest completely."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/chest-covering-square.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/woman-in-beige-hijab-standing-fLxvz8EjCoQ"
+   }
+  },
+  {
+   "id": "square-back-knot",
+   "category": "everyday",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "المربعة بعقدة خلفية",
+    "en": "Square with Back Knot"
+   },
+   "summary": {
+    "ar": "الطرف الأيمن إلى الخلف، والأيسر يمر داخل الطية ثم يُعقد.",
+    "en": "The right end goes back, the left passes through the fold, then both are knotted."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "اطوي الطرحة على شكل مثلث وضعيها على رأسكِ، وثبّتيها تحت الذقن.",
+     "en": "Fold into a triangle, place it on your head and pin under the chin."
+    },
+    {
+     "ar": "مرّري الطرف الأيمن إلى خلف الرقبة.",
+     "en": "Take the right end behind your neck."
+    },
+    {
+     "ar": "مرّري الطرف الأيسر داخل الطية عند الرقبة.",
+     "en": "Pass the left end through the fold at your neck."
+    },
+    {
+     "ar": "اعقدي الطرفين عقدة خفيفة خلف الرقبة، ورتّبي المقدمة.",
+     "en": "Tie both ends in a light knot behind the neck and tidy the front."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "minimal-satin-wrap",
+   "category": "everyday",
+   "difficulty": 1,
+   "minutes": 3,
+   "pins": 2,
+   "tags": [
+    "occasion"
+   ],
+   "name": {
+    "ar": "الساتان البسيطة للسهرة",
+    "en": "Minimal Satin Wrap"
+   },
+   "summary": {
+    "ar": "لفة بسيطة بلمعة هادئة تناسب المناسبات المسائية.",
+    "en": "A simple wrap with a soft sheen for evening occasions."
+   },
+   "fabrics": {
+    "ar": "ساتان",
+    "en": "Satin"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي طرحة الساتان بطرف أطول قليلًا من الآخر.",
+     "en": "Place the satin scarf with one end slightly longer."
+    },
+    {
+     "ar": "ثبّتيها بدبوس تحت الذقن.",
+     "en": "Pin it under your chin."
+    },
+    {
+     "ar": "مرّري الطرف الطويل حول الرأس بلفة واحدة واسعة دون شدّ.",
+     "en": "Take the long end around the head in one wide, relaxed wrap."
+    },
+    {
+     "ar": "ثبّتيه على الجانب، واتركي القماش ينسدل بلمعته.",
+     "en": "Pin it at the side and let the fabric fall with its sheen."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "الساتان ينزلق؛ بونيه قطني أو تريكو يساعد على التثبيت.",
+     "en": "Satin slips; a cotton or knit underscarf helps it stay put."
+    }
+   ],
+   "image": "assets/images/styles/minimal-satin-wrap.webp",
+   "credit": {
+    "photographer": "irwan zahuri",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-woman-in-hijab-15889350/"
+   }
+  },
+  {
+   "id": "messy-satin-shawl",
+   "category": "everyday",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "شال الساتان العفوي",
+    "en": "Messy Satin Shawl"
+   },
+   "summary": {
+    "ar": "لفّ عفوي بلا دقة، مع دبوس على كل جانب.",
+    "en": "A relaxed, effortless wrap with a pin on each side."
+   },
+   "fabrics": {
+    "ar": "ساتان",
+    "en": "Satin"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الشال على رأسكِ بطرفين شبه متساويين.",
+     "en": "Drape the shawl with nearly equal ends."
+    },
+    {
+     "ar": "ثبّتي جانبًا واحدًا بدبوس قرب الأذن.",
+     "en": "Pin one side near your ear."
+    },
+    {
+     "ar": "لفّي الطرف الآخر حول الرقبة بشكل عفوي دون ترتيب دقيق.",
+     "en": "Wrap the other end loosely around your neck without perfect folds."
+    },
+    {
+     "ar": "ثبّتي الجانب الثاني بدبوس، واتركي الطيات طبيعية.",
+     "en": "Pin the second side and leave the folds natural."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/messy-satin-shawl.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/woman-in-brown-hijab-and-blue-denim-jacket-7kzX8jUwGKA"
+   }
+  },
+  {
+   "id": "simple-viscose-pashmina",
+   "category": "pashmina",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [
+    "summer"
+   ],
+   "name": {
+    "ar": "الباشمينا البسيطة",
+    "en": "Simple Viscose Pashmina"
+   },
+   "summary": {
+    "ar": "طرف يُطوى حول الرقبة ويُثبَّت. خفيفة ومناسبة للحر.",
+    "en": "One end folds around the neck and pins in place. Light and summer-friendly."
+   },
+   "fabrics": {
+    "ar": "فسكوز",
+    "en": "Viscose"
+   },
+   "steps": [
+    {
+     "ar": "ضعي الباشمينا على رأسكِ بحيث يكون أحد الطرفين أطول قليلًا.",
+     "en": "Place the pashmina with one end slightly longer."
+    },
+    {
+     "ar": "ثبّتيها بدبوس تحت الذقن.",
+     "en": "Pin it under your chin."
+    },
+    {
+     "ar": "مرّري الطرف الأطول حول الرقبة إلى الجهة المقابلة.",
+     "en": "Bring the longer end around your neck to the opposite side."
+    },
+    {
+     "ar": "ثبّتي الطرف بدبوس خلف الكتف، واتركي الآخر ينسدل.",
+     "en": "Pin it behind the shoulder and let the other end fall."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/simple-viscose-pashmina.webp",
+   "credit": {
+    "photographer": "ihsanaditya",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/young-woman-in-a-hijab-standing-outside-and-smiling-19133315/"
+   }
+  },
+  {
+   "id": "pinless-pashmina",
+   "category": "pashmina",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 0,
+   "tags": [
+    "no-pins",
+    "glasses"
+   ],
+   "name": {
+    "ar": "الباشمينا بلا دبابيس",
+    "en": "Pinless Pashmina"
+   },
+   "summary": {
+    "ar": "طرفان غير متساويين يُعقدان خلف الرقبة، ثم تُنزل الطية فوق العقدة. تناسب صاحبات النظارات.",
+    "en": "Two uneven ends are tied behind the neck, then the fold is lowered over the knot. Glasses-friendly."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الباشمينا على رأسكِ بطرفين غير متساويين.",
+     "en": "Place the pashmina with two uneven ends."
+    },
+    {
+     "ar": "مرّري الطرفين إلى خلف الرقبة واعقديهما عقدة محكمة.",
+     "en": "Take both ends behind your neck and tie a secure knot."
+    },
+    {
+     "ar": "أنزلي طية الباشمينا من فوق الرأس لتغطي العقدة.",
+     "en": "Lower the fold from the top of your head to cover the knot."
+    },
+    {
+     "ar": "أعيدي الطرف الأطول إلى الأمام واتركيه ينسدل على الصدر.",
+     "en": "Bring the longer end forward to fall over your chest."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "العقدة خلف الرقبة تُبعد الضغط عن الأذنين، فتريح من ترتدي النظارات.",
+     "en": "The knot sits behind the neck, keeping pressure off the ears for glasses wearers."
+    }
+   ]
+  },
+  {
+   "id": "pashmina-no-inner",
+   "category": "pashmina",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "الباشمينا بلا بونيه",
+    "en": "Pashmina without Inner Cap"
+   },
+   "summary": {
+    "ar": "الطرف الطويل يلف الرأس ويُدسّ في فتحة الرقبة.",
+    "en": "The long end wraps around the head and tucks in at the neckline."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ضعي الباشمينا على رأسكِ بطرف أطول من الآخر.",
+     "en": "Place the pashmina with one end longer."
+    },
+    {
+     "ar": "ثبّتيها بدبوس تحت الذقن.",
+     "en": "Pin it under your chin."
+    },
+    {
+     "ar": "لفّي الطرف الطويل حول الرأس من الخلف إلى الأمام.",
+     "en": "Wrap the long end around your head, back to front."
+    },
+    {
+     "ar": "ادسسي نهاية الطرف في فتحة الرقبة حتى تثبت.",
+     "en": "Tuck the end into the neckline so it stays in place."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "بدون بونيه قد ينزلق القماش؛ اختاري قماشًا غير لامع.",
+     "en": "Without an underscarf fabric may slip; choose a matte fabric."
+    }
+   ]
+  },
+  {
+   "id": "pleated-pashmina",
+   "category": "pashmina",
+   "difficulty": 2,
+   "minutes": 4,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "الباشمينا المكسّرة (بليسيه)",
+    "en": "Pleated Pashmina (Plisket)"
+   },
+   "summary": {
+    "ar": "طرفان غير متساويين، الطويل يمرّ خلف الرأس ثم إلى الأعلى ويُثبَّت.",
+    "en": "Uneven ends: the long one goes behind the head, then up, and is pinned."
+   },
+   "fabrics": {
+    "ar": "بليسيه",
+    "en": "Plisse (pleated)"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الباشمينا المكسّرة بطرفين غير متساويين وثبّتيها تحت الذقن.",
+     "en": "Place the pleated pashmina with uneven ends and pin under the chin."
+    },
+    {
+     "ar": "مرّري الطرف الطويل خلف الرأس.",
+     "en": "Take the long end behind your head."
+    },
+    {
+     "ar": "ارفعيه إلى أعلى الرأس وثبّتيه بدبوس.",
+     "en": "Bring it up over the top of the head and pin."
+    },
+    {
+     "ar": "رتّبي الكسرات لتبقى مستقيمة دون شدّ.",
+     "en": "Arrange the pleats so they stay straight without stretching."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "wavy-pashmina",
+   "category": "pashmina",
+   "difficulty": 3,
+   "minutes": 5,
+   "pins": 3,
+   "tags": [],
+   "name": {
+    "ar": "الباشمينا المتموجة",
+    "en": "Wavy Pashmina"
+   },
+   "summary": {
+    "ar": "تُثبَّت على البونيه لتكوين مقدمة فضفاضة متموجة.",
+    "en": "Pinned onto the underscarf to create a loose, wavy front."
+   },
+   "fabrics": {
+    "ar": "شيفون فاخر",
+    "en": "Premium chiffon"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الباشمينا على رأسكِ وثبّتيها تحت الذقن.",
+     "en": "Place the pashmina and pin it under the chin."
+    },
+    {
+     "ar": "اسحبي جزءًا من القماش فوق الجبهة إلى الأمام قليلًا ليصبح فضفاضًا.",
+     "en": "Pull some fabric above the forehead slightly forward to loosen it."
+    },
+    {
+     "ar": "ثبّتي هذا الجزء بدبوس صغير على البونيه لتكوين موجة.",
+     "en": "Pin that section to the underscarf with a small pin to form a wave."
+    },
+    {
+     "ar": "كرري على الجانب الآخر، ثم أكملي بالطرف الطويل حول الرأس.",
+     "en": "Repeat on the other side, then finish with the long end around the head."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "silk-pashmina",
+   "category": "pashmina",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 2,
+   "tags": [
+    "occasion"
+   ],
+   "name": {
+    "ar": "الباشمينا الحريرية",
+    "en": "Silk Pashmina"
+   },
+   "summary": {
+    "ar": "لمعة ناعمة منسدلة، تحتاج بونيه تريكو لأن الحرير ينزلق.",
+    "en": "A soft, flowing sheen; needs a knit underscarf because silk slips."
+   },
+   "fabrics": {
+    "ar": "حرير",
+    "en": "Silk"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي بونيه تريكو يمسك القماش.",
+     "en": "Wear a knit underscarf that grips fabric."
+    },
+    {
+     "ar": "ضعي الباشمينا الحريرية بطرف أطول وثبّتيها تحت الذقن.",
+     "en": "Place the silk pashmina with one end longer and pin under the chin."
+    },
+    {
+     "ar": "مرّري الطرف الطويل حول الرأس بلفة ناعمة.",
+     "en": "Wrap the long end softly around your head."
+    },
+    {
+     "ar": "ثبّتيه على الجانب، واتركي القماش ينسدل.",
+     "en": "Pin it at the side and let the fabric flow."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "دبابيس بلا رؤوس حادة تحمي الحرير من الثقوب.",
+     "en": "Smooth-headed pins protect silk from snags."
+    }
+   ],
+   "image": "assets/images/styles/silk-pashmina.webp",
+   "credit": {
+    "photographer": "teguhsugi",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/crop-cheerful-young-muslim-woman-in-hijab-6122065/"
+   }
+  },
+  {
+   "id": "chest-covering-pashmina",
+   "category": "pashmina",
+   "difficulty": 1,
+   "minutes": 3,
+   "pins": 2,
+   "tags": [
+    "full-coverage"
+   ],
+   "name": {
+    "ar": "الباشمينا الساترة للصدر",
+    "en": "Chest-Covering Pashmina"
+   },
+   "summary": {
+    "ar": "طرف يُسحب إلى الكتف المقابل، والخلف يغطي الظهر.",
+    "en": "One end is pulled to the opposite shoulder while the back covers the back."
+   },
+   "fabrics": {
+    "ar": "سيروتي، قماش خفيف",
+    "en": "Ceruti, light fabrics"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الباشمينا بطرفين شبه متساويين وثبّتيها تحت الذقن.",
+     "en": "Place the pashmina with near-equal ends and pin under the chin."
+    },
+    {
+     "ar": "اسحبي أحد الطرفين عبر الصدر إلى الكتف المقابل.",
+     "en": "Pull one end across your chest to the opposite shoulder."
+    },
+    {
+     "ar": "ثبّتيه على الكتف بدبوس.",
+     "en": "Pin it on the shoulder."
+    },
+    {
+     "ar": "افردي الطرف الآخر على الظهر ليغطيه.",
+     "en": "Spread the other end over your back."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/chest-covering-pashmina.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/a-woman-in-a-hijab-is-holding-a-book-ZGQKW-nIW8o"
+   }
+  },
+  {
+   "id": "side-pinned-pashmina",
+   "category": "pashmina",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "الباشمينا المثبتة فوق الأذن",
+    "en": "Side-Pinned Pashmina"
+   },
+   "summary": {
+    "ar": "طرف أطول يُثبَّت فوق الأذن ويُدسّ خلفًا، فتبقى ثابتة في الريح.",
+    "en": "A longer end pinned above the ear and tucked behind, so it stays put in the wind."
+   },
+   "fabrics": {
+    "ar": "فسكوز سبرينغ",
+    "en": "Viscose spring"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الباشمينا بطرف أطول وثبّتيها تحت الذقن.",
+     "en": "Place the pashmina with one end longer and pin under the chin."
+    },
+    {
+     "ar": "ارفعي الطرف الطويل فوق الرأس إلى الجهة الأخرى.",
+     "en": "Bring the long end over your head to the other side."
+    },
+    {
+     "ar": "ثبّتيه بدبوس فوق الأذن.",
+     "en": "Pin it above the ear."
+    },
+    {
+     "ar": "ادسسي ما تبقى من الطرف خلف الرأس.",
+     "en": "Tuck the remaining fabric behind your head."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "instant-pashmina",
+   "category": "pashmina",
+   "difficulty": 1,
+   "minutes": 1,
+   "pins": 0,
+   "tags": [
+    "no-pins"
+   ],
+   "name": {
+    "ar": "الباشمينا الجاهزة",
+    "en": "Instant Pashmina"
+   },
+   "summary": {
+    "ar": "باشمينا مدمجة مع بونيه، تُثبَّت تحت الذقن أو تُترك.",
+    "en": "A pashmina joined to an underscarf; pin it under the chin or leave it open."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي الباشمينا الجاهزة من جهة البونيه كقبعة.",
+     "en": "Put on the instant pashmina by its built-in underscarf."
+    },
+    {
+     "ar": "عدّلي البونيه ليغطي خط الشعر.",
+     "en": "Adjust the underscarf to cover your hairline."
+    },
+    {
+     "ar": "اختاري: ثبّتي الطرفين تحت الذقن أو اتركيهما مفتوحين.",
+     "en": "Choose: pin the ends under your chin or leave them open."
+    },
+    {
+     "ar": "رتّبي الطرف الطويل حول الرقبة أو على الكتف.",
+     "en": "Arrange the long end around your neck or over your shoulder."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "neck-wrap",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [
+    "work",
+    "glasses"
+   ],
+   "name": {
+    "ar": "لفة الرقبة",
+    "en": "Neck Wrap"
+   },
+   "summary": {
+    "ar": "الطرف الطويل يلف الرقبة مرة واحدة وينسدل بنعومة. سريعة ومرتبة.",
+    "en": "The long end wraps once around the neck and drapes softly. Quick and neat."
+   },
+   "fabrics": {
+    "ar": "جيرسي، مودال",
+    "en": "Jersey, modal"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه، ثم ضعي الطرحة بحيث يكون أحد الطرفين أطول (تقريبًا 80 إلى 20).",
+     "en": "Wear an underscarf, then drape the scarf with one end longer (about 80:20)."
+    },
+    {
+     "ar": "ثبّتي الطرحة بدبوس تحت الذقن.",
+     "en": "Pin the scarf under your chin."
+    },
+    {
+     "ar": "لفّي الطرف الطويل حول رقبتكِ مرة واحدة من الخلف إلى الأمام.",
+     "en": "Wrap the long end once around your neck, back to front."
+    },
+    {
+     "ar": "اتركي الطرف ينسدل على الكتف أو الصدر ورتّبيه.",
+     "en": "Let the end fall over your shoulder or chest and adjust it."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/neck-wrap.webp",
+   "credit": {
+    "photographer": "versolaluce",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/woman-in-hijab-and-sunglasses-18410346/"
+   }
+  },
+  {
+   "id": "side-knot",
+   "category": "drape",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "العقدة الجانبية",
+    "en": "Side Knot"
+   },
+   "summary": {
+    "ar": "تقسيم 70:30، لفّتان حول الرقبة ثم عقدة على الجانب.",
+    "en": "A 70:30 split, two wraps around the neck, then a knot at the side."
+   },
+   "fabrics": {
+    "ar": "شيفون حريري، جيرسي",
+    "en": "Silk chiffon, jersey"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة بتقسيم تقريبي 70 إلى 30، وثبّتيها تحت الذقن.",
+     "en": "Place the scarf at about 70:30 and pin under the chin."
+    },
+    {
+     "ar": "لفّي الطرف الطويل حول الرقبة مرتين.",
+     "en": "Wrap the long end around your neck twice."
+    },
+    {
+     "ar": "أحضري الطرفين إلى جانب واحد.",
+     "en": "Bring both ends to one side."
+    },
+    {
+     "ar": "اعقديهما عقدة بسيطة على الجانب، ورتّبي الأطراف.",
+     "en": "Tie them in a simple knot at the side and tidy the ends."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "tucked-in-wrap",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [
+    "work"
+   ],
+   "name": {
+    "ar": "المدسوسة في الملابس",
+    "en": "Tucked-In Wrap"
+   },
+   "summary": {
+    "ar": "الأطراف تُدسّ في ياقة القميص أو السترة. عملية ومرتبة للعمل.",
+    "en": "The ends tuck into your collar or jacket. Practical and neat for work."
+   },
+   "fabrics": {
+    "ar": "جيرسي، كريب",
+    "en": "Jersey, crepe"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة بطرفين متساويين وثبّتيها تحت الذقن.",
+     "en": "Place the scarf with equal ends and pin under the chin."
+    },
+    {
+     "ar": "اطوي كل طرف طوليًا ليصبح أنحف.",
+     "en": "Fold each end lengthwise to make it narrower."
+    },
+    {
+     "ar": "ادسسي الطرفين داخل ياقة القميص أو السترة.",
+     "en": "Tuck both ends inside your shirt collar or jacket."
+    },
+    {
+     "ar": "رتّبي القماش حول الرقبة ليبقى مستويًا.",
+     "en": "Smooth the fabric around your neck."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/tucked-in-wrap.webp",
+   "credit": {
+    "photographer": "ono kosuki",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/content-muslim-black-woman-in-hijab-standing-against-brown-wall-6000173/"
+   }
+  },
+  {
+   "id": "side-drape",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "الانسدال الجانبي",
+    "en": "Side Drape"
+   },
+   "summary": {
+    "ar": "الطرف القصير خلف الأذن، والطويل يلتف حول الرأس وينسدل على جانب واحد.",
+    "en": "The short end goes behind the ear while the long end wraps around and falls to one side."
+   },
+   "fabrics": {
+    "ar": "كريب، جيرسي",
+    "en": "Crepe, jersey"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة بطرف قصير وآخر طويل.",
+     "en": "Place the scarf with one short and one long end."
+    },
+    {
+     "ar": "ثبّتي الطرف القصير بدبوس خلف الأذن.",
+     "en": "Pin the short end behind your ear."
+    },
+    {
+     "ar": "مرّري الطرف الطويل تحت الذقن ثم فوق الرأس.",
+     "en": "Take the long end under your chin, then over your head."
+    },
+    {
+     "ar": "ثبّتيه على الجانب واتركي الباقي ينسدل على الكتف.",
+     "en": "Pin it at the side and let the rest fall over your shoulder."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/side-drape.webp",
+   "credit": {
+    "photographer": "bymuratisikofficial",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-woman-in-hijab-at-cafe-36169798/"
+   }
+  },
+  {
+   "id": "loose-wrap",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [
+    "summer"
+   ],
+   "name": {
+    "ar": "اللفة الفضفاضة",
+    "en": "Loose Wrap"
+   },
+   "summary": {
+    "ar": "طيات غير مشدودة بعيدًا عن الخدين، تهوية جيدة لأيام الصيف.",
+    "en": "Relaxed folds away from the cheeks for good airflow on summer days."
+   },
+   "fabrics": {
+    "ar": "شيفون، جورجيت، كريب",
+    "en": "Chiffon, georgette, crepe"
+   },
+   "steps": [
+    {
+     "ar": "ضعي الطرحة على رأسكِ بطرفين شبه متساويين.",
+     "en": "Place the scarf on your head with nearly equal ends."
+    },
+    {
+     "ar": "ثبّتيها بدبوس واحد تحت الذقن دون شدّ القماش على الوجه.",
+     "en": "Secure it with one pin under the chin without pulling the fabric tight."
+    },
+    {
+     "ar": "اسحبي الطرفين برفق إلى الأمام واتركيهما ينسدلان بحرية.",
+     "en": "Gently bring both ends forward and let them fall freely."
+    },
+    {
+     "ar": "وسّعي الطيات قليلًا بعيدًا عن الخدين للتهوية.",
+     "en": "Loosen the folds slightly away from the cheeks for airflow."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/loose-wrap.webp",
+   "credit": {
+    "photographer": "Khaled Ghareeb",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/woman-in-white-hijab-and-white-long-sleeve-shirt-xZSEvSlHRv8"
+   }
+  },
+  {
+   "id": "over-the-shoulders",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "على الكتفين",
+    "en": "Over the Shoulders"
+   },
+   "summary": {
+    "ar": "تقسيم 50:50، وكل طرف يُرمى على الكتف المقابل.",
+    "en": "A 50:50 split with each end thrown over the opposite shoulder."
+   },
+   "fabrics": {
+    "ar": "كل الأنواع",
+    "en": "Any fabric"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة بطرفين متساويين تمامًا.",
+     "en": "Place the scarf with exactly equal ends."
+    },
+    {
+     "ar": "ثبّتيها بدبوس تحت الذقن.",
+     "en": "Pin it under your chin."
+    },
+    {
+     "ar": "ارمي الطرف الأيمن فوق الكتف الأيسر.",
+     "en": "Throw the right end over your left shoulder."
+    },
+    {
+     "ar": "ارمي الطرف الأيسر فوق الكتف الأيمن، ورتّبي الطيات على الصدر.",
+     "en": "Throw the left end over your right shoulder and arrange the folds on your chest."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/over-the-shoulders.webp",
+   "credit": {
+    "photographer": "keira burton",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-muslim-woman-looking-at-camera-6084078/"
+   }
+  },
+  {
+   "id": "diagonal-shoulder-drape",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "الانسدال القطري على الكتف",
+    "en": "Over-the-Shoulder Drape"
+   },
+   "summary": {
+    "ar": "شال طويل يمر قطريًا على الصدر وفوق كتف واحد.",
+    "en": "A long shawl that crosses the chest diagonally and rests over one shoulder."
+   },
+   "fabrics": {
+    "ar": "شيفون، ساتان، كريب",
+    "en": "Chiffon, satin, crepe"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الشال الطويل بطرف أطول بكثير وثبّتيه تحت الذقن.",
+     "en": "Place the long shawl with one end much longer and pin under the chin."
+    },
+    {
+     "ar": "اسحبي الطرف الطويل قطريًا عبر الصدر.",
+     "en": "Bring the long end diagonally across your chest."
+    },
+    {
+     "ar": "ارميه فوق الكتف المقابل.",
+     "en": "Throw it over the opposite shoulder."
+    },
+    {
+     "ar": "ثبّتيه بدبوس على الكتف حتى لا ينزلق.",
+     "en": "Pin it on the shoulder so it doesn't slide."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/diagonal-shoulder-drape.webp",
+   "credit": {
+    "photographer": "oussama ben slama",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/stylish-young-ethnic-woman-standing-in-light-building-3427560/"
+   }
+  },
+  {
+   "id": "full-coverage",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 3,
+   "pins": 2,
+   "tags": [
+    "full-coverage"
+   ],
+   "name": {
+    "ar": "التغطية الكاملة",
+    "en": "Full Coverage"
+   },
+   "summary": {
+    "ar": "الطرف الطويل يلتف حول الرأس، والجزء الزائد يُسحب ليغطي الصدر.",
+    "en": "The long end wraps around the head and the extra fabric covers the chest."
+   },
+   "fabrics": {
+    "ar": "مودال، جيرسي، قطن",
+    "en": "Modal, jersey, cotton"
+   },
+   "steps": [
+    {
+     "ar": "ضعي الطرحة بحيث يكون أحد الطرفين أطول بكثير (تقريبًا 90 إلى 10).",
+     "en": "Place the scarf with one end much longer (about 90:10)."
+    },
+    {
+     "ar": "ثبّتي الطرحة تحت الذقن بدبوس.",
+     "en": "Pin the scarf under your chin."
+    },
+    {
+     "ar": "لفّي الطرف الطويل حول رأسكِ مرة واحدة.",
+     "en": "Wrap the long end once around your head."
+    },
+    {
+     "ar": "اسحبي القماش الزائد إلى الأمام ليغطي الصدر، وثبّتيه على الكتف.",
+     "en": "Pull the extra fabric forward over your chest and pin it at the shoulder."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/full-coverage.webp",
+   "credit": {
+    "photographer": "kazys photography",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/portrait-of-a-woman-in-blue-hijab-with-neutral-background-32219941/"
+   }
+  },
+  {
+   "id": "casual-chic",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 2,
+   "tags": [
+    "work"
+   ],
+   "name": {
+    "ar": "الكاجوال الأنيقة",
+    "en": "Casual Chic"
+   },
+   "summary": {
+    "ar": "شال طويل يُثبَّت تحت الذقن وينسدل على جهة واحدة، بدبوس أو اثنين.",
+    "en": "A long shawl pinned under the chin and draped to one side with one or two pins."
+   },
+   "fabrics": {
+    "ar": "قطن، شيفون، فسكوز",
+    "en": "Cotton, chiffon, viscose"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الشال بطرف أطول وثبّتيه تحت الذقن.",
+     "en": "Place the shawl with one end longer and pin under the chin."
+    },
+    {
+     "ar": "ارمي الطرف الطويل إلى الخلف فوق الكتف.",
+     "en": "Throw the long end back over your shoulder."
+    },
+    {
+     "ar": "أعيدي جزءًا منه إلى الأمام لينسدل على الجهة نفسها.",
+     "en": "Bring part of it forward to drape on the same side."
+    },
+    {
+     "ar": "ثبّتيه بدبوس على الكتف إن احتجتِ.",
+     "en": "Pin it on the shoulder if needed."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/casual-chic.webp",
+   "credit": {
+    "photographer": "el gringo photo",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/a-woman-sitting-on-wooden-bench-12055314/"
+   }
+  },
+  {
+   "id": "print-showcase",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "لفة إظهار النقشة",
+    "en": "Print-Showcase Chest Drape"
+   },
+   "summary": {
+    "ar": "زاوية تُفرد على الصدر لإبراز نقشة الطرحة.",
+    "en": "One corner is spread over the chest to show off the scarf's print."
+   },
+   "fabrics": {
+    "ar": "طرحة منقوشة",
+    "en": "Printed scarf"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة المنقوشة وثبّتيها تحت الذقن.",
+     "en": "Place the printed scarf and pin it under the chin."
+    },
+    {
+     "ar": "اختاري الزاوية التي تحمل أجمل جزء من النقشة.",
+     "en": "Pick the corner with the best part of the print."
+    },
+    {
+     "ar": "افردي هذه الزاوية على الصدر لتظهر النقشة كاملة.",
+     "en": "Spread that corner across your chest so the print shows."
+    },
+    {
+     "ar": "ارمي الطرف الآخر إلى الخلف.",
+     "en": "Throw the other end back."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/print-showcase.webp",
+   "credit": {
+    "photographer": "a hawa",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/woman-wearing-a-traditional-colorful-hijab-8639997/"
+   }
+  },
+  {
+   "id": "back-draped",
+   "category": "drape",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "المنسدلة إلى الخلف",
+    "en": "Back-Draped Wrap"
+   },
+   "summary": {
+    "ar": "الطرحة تُلف عكسيًا من الرقبة فتنسدل على الجانبين من الخلف.",
+    "en": "The scarf is wrapped back from the neck so it falls behind on both sides."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة بطرفين متساويين وثبّتيها تحت الذقن.",
+     "en": "Place the scarf with equal ends and pin under the chin."
+    },
+    {
+     "ar": "أحضري الطرفين إلى خلف الرقبة.",
+     "en": "Bring both ends behind your neck."
+    },
+    {
+     "ar": "تقاطعي بهما خلف الرقبة.",
+     "en": "Cross them behind your neck."
+    },
+    {
+     "ar": "أعيدي كل طرف إلى الأمام فوق الكتف، أو اتركيهما ينسدلان على الظهر.",
+     "en": "Bring each end forward over the shoulder, or let them fall down your back."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/back-draped.webp",
+   "credit": {
+    "photographer": "rizkysabriansyah",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/a-woman-in-black-hijab-smiling-8680897/"
+   }
+  },
+  {
+   "id": "multi-layered",
+   "category": "layered",
+   "difficulty": 3,
+   "minutes": 5,
+   "pins": 3,
+   "tags": [],
+   "name": {
+    "ar": "متعددة الطبقات",
+    "en": "Multi-Layered"
+   },
+   "summary": {
+    "ar": "طبقات على الرأس والصدر لمظهر أغنى.",
+    "en": "Layers over the head and chest for a fuller look."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة بطرف أطول وثبّتيها تحت الذقن.",
+     "en": "Place the scarf with one end longer and pin under the chin."
+    },
+    {
+     "ar": "لفّي الطرف الطويل حول الرأس مرة، وثبّتيه على الجانب.",
+     "en": "Wrap the long end around the head once and pin at the side."
+    },
+    {
+     "ar": "أعيدي الباقي إلى الأمام وكوّني طبقة ثانية على الصدر.",
+     "en": "Bring the rest forward to form a second layer on the chest."
+    },
+    {
+     "ar": "ثبّتي الطبقة على الكتف، ورتّبي الطبقات لتظهر متدرجة.",
+     "en": "Pin it at the shoulder and arrange the layers to cascade."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "quick-two-layer",
+   "category": "layered",
+   "difficulty": 1,
+   "minutes": 3,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "الطبقتين السريعة",
+    "en": "Quick Two-Layer"
+   },
+   "summary": {
+    "ar": "طبقة داخلية بيضاء تظهر من الأمام فقط، وفوقها طرحة سادة.",
+    "en": "A white inner layer that peeks out at the front, under a plain scarf."
+   },
+   "fabrics": {
+    "ar": "بونيه أبيض + طرحة سادة",
+    "en": "White underscarf + plain scarf"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي بونيه أو طبقة داخلية بيضاء.",
+     "en": "Wear a white underscarf or inner layer."
+    },
+    {
+     "ar": "ضعي الطرحة السادة فوقها مع ترك شريط رفيع من الأبيض ظاهرًا عند الجبهة.",
+     "en": "Place the plain scarf on top, leaving a thin band of white visible at the forehead."
+    },
+    {
+     "ar": "ثبّتي الطرحة تحت الذقن.",
+     "en": "Pin the scarf under your chin."
+    },
+    {
+     "ar": "أكملي بلفة الرقبة أو اتركي الطرفين ينسدلان.",
+     "en": "Finish with a neck wrap or let the ends fall."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/quick-two-layer.webp",
+   "credit": {
+    "photographer": "audy of course",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/portrait-of-smiling-woman-in-eyeglasses-20532523/"
+   }
+  },
+  {
+   "id": "bandana-underlayer",
+   "category": "layered",
+   "difficulty": 2,
+   "minutes": 4,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "مع الباندانا",
+    "en": "Bandana Underlayer"
+   },
+   "summary": {
+    "ar": "باندانا صغيرة تحت طبقة خارجية خفيفة.",
+    "en": "A small bandana worn under a light outer layer."
+   },
+   "fabrics": {
+    "ar": "شيفون (للطبقة الخارجية)",
+    "en": "Chiffon (outer layer)"
+   },
+   "steps": [
+    {
+     "ar": "اطوي الباندانا على شكل مثلث واربطيها على الرأس فوق البونيه.",
+     "en": "Fold the bandana into a triangle and tie it over your underscarf."
+    },
+    {
+     "ar": "ضعي الطرحة الشيفون فوقها مع إظهار حافة الباندانا قليلًا.",
+     "en": "Place the chiffon scarf on top, letting the bandana edge show slightly."
+    },
+    {
+     "ar": "ثبّتي الطرحة تحت الذقن.",
+     "en": "Pin the scarf under your chin."
+    },
+    {
+     "ar": "رتّبي الطرفين حول الرقبة أو على الكتفين.",
+     "en": "Arrange the ends around your neck or shoulders."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "simple-back-knot-scarf",
+   "category": "layered",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 0,
+   "tags": [
+    "no-pins"
+   ],
+   "name": {
+    "ar": "الخلفية البسيطة بعقدة",
+    "en": "Simple Back-Knot Scarf"
+   },
+   "summary": {
+    "ar": "طرحة صغيرة مزخرفة تُلف إلى الخلف وتُعقد في الأسفل.",
+    "en": "A small patterned scarf wrapped back and knotted at the nape."
+   },
+   "fabrics": {
+    "ar": "قماش ناعم حريري",
+    "en": "Soft silky fabric"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "اطوي الطرحة الصغيرة على شكل مثلث.",
+     "en": "Fold the small scarf into a triangle."
+    },
+    {
+     "ar": "ضعيها على الرأس والحافة المطوية على الجبهة.",
+     "en": "Place it on your head with the folded edge on your forehead."
+    },
+    {
+     "ar": "اجمعي الطرفين خلف الرأس فوق الزاوية الثالثة.",
+     "en": "Gather both ends at the back of your head over the third corner."
+    },
+    {
+     "ar": "اعقديهما عقدة محكمة أسفل الرأس.",
+     "en": "Tie them in a secure knot at the nape."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "هذه اللفة لا تغطي الرقبة؛ ارتديها فوق بونيه برقبة إن رغبتِ.",
+     "en": "This style leaves the neck uncovered; wear it over a neck-covering underscarf if you prefer."
+    }
+   ]
+  },
+  {
+   "id": "earring-showing",
+   "category": "layered",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 2,
+   "tags": [
+    "occasion"
+   ],
+   "name": {
+    "ar": "لفة إظهار الأقراط",
+    "en": "Earring-Showing Wrap"
+   },
+   "summary": {
+    "ar": "الطرحة خلف شحمة الأذن لإظهار الأقراط.",
+    "en": "The scarf sits behind the earlobe to show your earrings."
+   },
+   "fabrics": {
+    "ar": "شيفون، ساتان، جيرسي",
+    "en": "Chiffon, satin, jersey"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي بونيه يغطي الشعر ويترك شحمة الأذن ظاهرة.",
+     "en": "Wear an underscarf that covers the hair but leaves the earlobe visible."
+    },
+    {
+     "ar": "ضعي الطرحة وثبّتيها تحت الذقن.",
+     "en": "Place the scarf and pin under the chin."
+    },
+    {
+     "ar": "ادسسي حافة الطرحة خلف شحمة الأذن.",
+     "en": "Tuck the scarf edge behind your earlobe."
+    },
+    {
+     "ar": "ثبّتيها بدبوس خلف الأذن، وأكملي بالطرف الطويل حول الرأس.",
+     "en": "Pin it behind the ear and finish with the long end around the head."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/earring-showing.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/woman-wearing-gray-long-sleeved-top-and-gray-hijab-right-hand-on-cheek-hxLv1jqP0_o"
+   }
+  },
+  {
+   "id": "turkish-style",
+   "category": "regional",
+   "difficulty": 2,
+   "minutes": 4,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "اللفة التركية",
+    "en": "Turkish Style"
+   },
+   "summary": {
+    "ar": "طرحة مطوية تُعقد تحت الذقن مع مقدمة مثلثة مرتبة.",
+    "en": "A folded scarf tied under the chin with a neat triangular front."
+   },
+   "fabrics": {
+    "ar": "طرحة بقوام متوسط",
+    "en": "Medium-weight scarf"
+   },
+   "steps": [
+    {
+     "ar": "اطوي الطرحة على شكل مثلث (أو المستطيلة طوليًا).",
+     "en": "Fold the scarf into a triangle (or a rectangle lengthwise)."
+    },
+    {
+     "ar": "ضعي الحافة الطويلة على الجبهة، والطرف المثلث إلى الخلف.",
+     "en": "Place the long edge on your forehead with the point at the back."
+    },
+    {
+     "ar": "اجمعي الطرفين تحت الذقن واعقديهما عقدة صغيرة أو ثبّتيهما بدبوس.",
+     "en": "Bring both ends under your chin and tie a small knot or pin them."
+    },
+    {
+     "ar": "رتّبي المقدمة لتأخذ شكلًا مثلثًا مستويًا.",
+     "en": "Shape the front into a smooth triangle."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/turkish-style.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/a-person-wearing-a-head-scarf-and-sunglasses-UeWAEduktB8"
+   }
+  },
+  {
+   "id": "classic-arabic",
+   "category": "regional",
+   "difficulty": 2,
+   "minutes": 4,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "اللفة العربية الكلاسيكية",
+    "en": "Classic Arabic Style"
+   },
+   "summary": {
+    "ar": "تغطي الرأس بحجم، وتنتهي بشكل مثلث على الصدر.",
+    "en": "Covers the head with volume and ends in a triangle over the chest."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "اطوي طرحة مربعة كبيرة على شكل مثلث.",
+     "en": "Fold a large square scarf into a triangle."
+    },
+    {
+     "ar": "ضعيها على الرأس بحيث تكون الزاوية في الخلف.",
+     "en": "Place it on your head with the point at the back."
+    },
+    {
+     "ar": "ثبّتي الطرفين تحت الذقن.",
+     "en": "Pin the ends under your chin."
+    },
+    {
+     "ar": "أحضري الطرفين إلى الأمام ورتّبيهما ليكوّنا مثلثًا على الصدر.",
+     "en": "Bring the ends forward and arrange them into a triangle on the chest."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "khimar",
+   "category": "regional",
+   "difficulty": 1,
+   "minutes": 1,
+   "pins": 0,
+   "tags": [
+    "full-coverage",
+    "no-pins"
+   ],
+   "name": {
+    "ar": "الخمار",
+    "en": "Khimar"
+   },
+   "summary": {
+    "ar": "قطعة واحدة تغطي الرأس والرقبة والكتفين والصدر.",
+    "en": "A single piece covering the head, neck, shoulders and chest."
+   },
+   "fabrics": {
+    "ar": "قماش خفيف، جيرسي، كرينكل",
+    "en": "Light fabrics, jersey, crinkle"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه.",
+     "en": "Put on an underscarf."
+    },
+    {
+     "ar": "أدخلي الخمار من فتحة الوجه.",
+     "en": "Slip the khimar on through the face opening."
+    },
+    {
+     "ar": "عدّلي الحافة حول الوجه لتكون مستوية.",
+     "en": "Adjust the edge around your face so it sits evenly."
+    },
+    {
+     "ar": "افردي القماش على الكتفين والصدر والظهر.",
+     "en": "Spread the fabric over your shoulders, chest and back."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/khimar.webp",
+   "credit": {
+    "photographer": "bobography",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-woman-in-hijab-at-sunset-outdoors-36919784/"
+   }
+  },
+  {
+   "id": "instant-hijab",
+   "category": "regional",
+   "difficulty": 1,
+   "minutes": 1,
+   "pins": 0,
+   "tags": [
+    "no-pins",
+    "sport"
+   ],
+   "name": {
+    "ar": "الحجاب الجاهز",
+    "en": "Instant Hijab"
+   },
+   "summary": {
+    "ar": "قطعة مخيطة مع بونيه، تُلبس بلا دبابيس.",
+    "en": "A sewn piece with a built-in underscarf, worn without pins."
+   },
+   "fabrics": {
+    "ar": "جيرسي، قطن ليكرا، إيرفلو",
+    "en": "Jersey, cotton lycra, airflow"
+   },
+   "steps": [
+    {
+     "ar": "أمسكي الحجاب من فتحة الوجه.",
+     "en": "Hold the hijab by the face opening."
+    },
+    {
+     "ar": "ارتديه مثل القبعة، وأدخلي الرأس.",
+     "en": "Pull it on like a hood."
+    },
+    {
+     "ar": "عدّلي البونيه الداخلي ليغطي خط الشعر.",
+     "en": "Adjust the inner cap to cover the hairline."
+    },
+    {
+     "ar": "رتّبي الجزء الخارجي على الرقبة والكتفين.",
+     "en": "Smooth the outer piece over your neck and shoulders."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/instant-hijab.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/woman-in-black-hijab-and-black-coat-QDRCvXpP18U"
+   }
+  },
+  {
+   "id": "tudung-bawal",
+   "category": "regional",
+   "difficulty": 1,
+   "minutes": 2,
+   "pins": 1,
+   "tags": [],
+   "name": {
+    "ar": "البوال الماليزية البسيطة",
+    "en": "Simple Tudung Bawal"
+   },
+   "summary": {
+    "ar": "طرحة مربعة بسيطة مرتبة للاستخدام اليومي.",
+    "en": "A simple, neat square scarf for daily wear."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "اطوي الطرحة المربعة على شكل مثلث.",
+     "en": "Fold the square scarf into a triangle."
+    },
+    {
+     "ar": "ضعيها على الرأس وثبّتيها بدبوس تحت الذقن.",
+     "en": "Place it on your head and pin under the chin."
+    },
+    {
+     "ar": "ارمي الطرفين إلى الخلف أو اتركيهما على الصدر.",
+     "en": "Throw both ends back or leave them on your chest."
+    },
+    {
+     "ar": "رتّبي الحافة الأمامية لتكون مستقيمة.",
+     "en": "Straighten the front edge."
+    }
+   ],
+   "tips": [],
+   "image": "assets/images/styles/tudung-bawal.webp",
+   "credit": {
+    "photographer": "tuti isnawati",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/stylish-woman-in-hijab-with-wooden-background-39221178/"
+   }
+  },
+  {
+   "id": "balaclava-hijab",
+   "category": "regional",
+   "difficulty": 1,
+   "minutes": 1,
+   "pins": 0,
+   "tags": [
+    "no-pins",
+    "sport"
+   ],
+   "name": {
+    "ar": "حجاب البالاكلافا",
+    "en": "Balaclava Hijab"
+   },
+   "summary": {
+    "ar": "قطعة على شكل بالاكلافا تغطي الرأس والرقبة، رائجة في إندونيسيا.",
+    "en": "A balaclava-shaped piece covering the head and neck, popular in Indonesia."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "أمسكي القطعة من فتحة الوجه.",
+     "en": "Hold the piece by the face opening."
+    },
+    {
+     "ar": "ارتديها من الرأس مثل القبعة.",
+     "en": "Pull it over your head like a hood."
+    },
+    {
+     "ar": "عدّلي الفتحة حول الوجه.",
+     "en": "Adjust the opening around your face."
+    },
+    {
+     "ar": "رتّبي الجزء السفلي على الرقبة.",
+     "en": "Smooth the lower part over your neck."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "دراسة أكاديمية (2025) ذكرت أن بعض الشابات يرين أنها لا تحقق الستر الكامل؛ يمكن ارتداء طرحة فوقها.",
+     "en": "A 2025 academic study notes some young women feel it isn't fully modest; you can wear a scarf over it."
+    }
+   ]
+  },
+  {
+   "id": "modern-turban",
+   "category": "turban",
+   "difficulty": 2,
+   "minutes": 4,
+   "pins": 0,
+   "tags": [
+    "no-pins"
+   ],
+   "name": {
+    "ar": "التربان العصري",
+    "en": "Modern Turban"
+   },
+   "summary": {
+    "ar": "لفّ متكرر إلى الخلف بشكل مشدود يبرز ملامح الوجه.",
+    "en": "Repeated wraps to the back for a snug look that frames the face."
+   },
+   "fabrics": {
+    "ar": "جيرسي أو حرير",
+    "en": "Jersey or silk"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي بونيه يغطي الشعر بالكامل.",
+     "en": "Wear an underscarf that covers all your hair."
+    },
+    {
+     "ar": "ضعي منتصف الطرحة على الجبهة، والطرفان إلى الخلف.",
+     "en": "Place the middle of the scarf on your forehead with both ends at the back."
+    },
+    {
+     "ar": "تقاطعي بالطرفين عند مؤخرة الرأس ثم أعيديهما إلى الأمام.",
+     "en": "Cross the ends at the nape and bring them back to the front."
+    },
+    {
+     "ar": "تقاطعي بهما مرة أخرى فوق الجبهة ثم أعيديهما إلى الخلف.",
+     "en": "Cross them again over the forehead and take them back."
+    },
+    {
+     "ar": "ادسسي الأطراف تحت الطبقات عند الخلف حتى تثبت.",
+     "en": "Tuck the ends under the layers at the back to secure."
+    }
+   ],
+   "tips": [
+    {
+     "ar": "التربان لا يغطي الرقبة؛ يمكن ارتداء بونيه برقبة تحته.",
+     "en": "A turban leaves the neck uncovered; wear a neck-covering underscarf if you prefer."
+    }
+   ]
+  },
+  {
+   "id": "chiffon-turban",
+   "category": "turban",
+   "difficulty": 2,
+   "minutes": 4,
+   "pins": 0,
+   "tags": [
+    "no-pins"
+   ],
+   "name": {
+    "ar": "تربان الشيفون",
+    "en": "Chiffon Turban"
+   },
+   "summary": {
+    "ar": "لفة مدمجة تُبرم أطرافها أو تُطوى إلى الخلف.",
+    "en": "A compact wrap with the ends twisted or folded at the back."
+   },
+   "fabrics": {
+    "ar": "شيفون، جيرسي",
+    "en": "Chiffon, jersey"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي بونيه بجيرسي يمسك القماش.",
+     "en": "Wear a jersey underscarf that grips fabric."
+    },
+    {
+     "ar": "ضعي منتصف الطرحة على الجبهة والطرفين إلى الخلف.",
+     "en": "Place the middle on your forehead with the ends at the back."
+    },
+    {
+     "ar": "ابرمي كل طرف بلفّه على نفسه.",
+     "en": "Twist each end on itself."
+    },
+    {
+     "ar": "لفّي الطرفين المبرومين حول الرأس.",
+     "en": "Wrap the twisted ends around your head."
+    },
+    {
+     "ar": "ادسسي النهايات تحت اللفة عند الخلف.",
+     "en": "Tuck the ends under the wrap at the back."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "criss-cross-turban",
+   "category": "turban",
+   "difficulty": 3,
+   "minutes": 5,
+   "pins": 0,
+   "tags": [
+    "no-pins"
+   ],
+   "name": {
+    "ar": "التربان المتقاطع",
+    "en": "Criss-Cross Turban"
+   },
+   "summary": {
+    "ar": "حلقات تتقاطع عند الجبهة أو القفا فوق كعكة، بلا دبابيس.",
+    "en": "Loops cross at the forehead or nape over a bun, no pins needed."
+   },
+   "fabrics": {
+    "ar": "جيرسي، قطن بامبو",
+    "en": "Jersey, bamboo cotton"
+   },
+   "steps": [
+    {
+     "ar": "اجمعي الشعر في كعكة، وارتدي بونيه.",
+     "en": "Gather your hair in a bun and wear an underscarf."
+    },
+    {
+     "ar": "ضعي منتصف الطرحة عند القفا والطرفين إلى الأمام.",
+     "en": "Place the middle of the scarf at the nape with the ends forward."
+    },
+    {
+     "ar": "تقاطعي بالطرفين فوق الجبهة.",
+     "en": "Cross the ends over your forehead."
+    },
+    {
+     "ar": "أعيديهما إلى الخلف وتقاطعي بهما فوق الكعكة.",
+     "en": "Take them back and cross them over the bun."
+    },
+    {
+     "ar": "ادسسي الأطراف تحت الطبقات.",
+     "en": "Tuck the ends under the layers."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "top-knot",
+   "category": "turban",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 0,
+   "tags": [
+    "no-pins"
+   ],
+   "name": {
+    "ar": "عقدة الأعلى",
+    "en": "Top Knot"
+   },
+   "summary": {
+    "ar": "تربان مشدود يُجمع بعقدة على قمة الرأس.",
+    "en": "A snug turban gathered into a knot on top of the head."
+   },
+   "fabrics": {
+    "ar": "جيرسي، تريكو مضلع",
+    "en": "Jersey, ribbed knit"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي بونيه يغطي الشعر.",
+     "en": "Wear an underscarf that covers your hair."
+    },
+    {
+     "ar": "ضعي منتصف الطرحة عند القفا والطرفين إلى الأمام.",
+     "en": "Place the middle at the nape with the ends forward."
+    },
+    {
+     "ar": "أحضري الطرفين إلى قمة الرأس.",
+     "en": "Bring both ends up to the top of your head."
+    },
+    {
+     "ar": "اعقديهما عقدة على القمة.",
+     "en": "Tie them in a knot on top."
+    },
+    {
+     "ar": "ادسسي الأطراف المتبقية تحت اللفة.",
+     "en": "Tuck the remaining ends under the wrap."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "parisian-knot",
+   "category": "turban",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 0,
+   "tags": [
+    "no-pins"
+   ],
+   "name": {
+    "ar": "العقدة الباريسية",
+    "en": "Parisian Knot"
+   },
+   "summary": {
+    "ar": "مربعة مطوية مثلثًا، تلتف حول الرقبة وتُعقد جانبًا أو خلفًا.",
+    "en": "A square folded into a triangle, wrapped around the neck and knotted at the side or back."
+   },
+   "fabrics": {
+    "ar": "ساتان، فوال قطني",
+    "en": "Satin, cotton voile"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "اطوي الطرحة المربعة على شكل مثلث.",
+     "en": "Fold the square scarf into a triangle."
+    },
+    {
+     "ar": "ضعيها على الرأس والزاوية في الخلف.",
+     "en": "Place it on your head with the point at the back."
+    },
+    {
+     "ar": "لفّي الطرفين حول الرقبة.",
+     "en": "Wrap both ends around your neck."
+    },
+    {
+     "ar": "اعقديهما عقدة أنيقة على الجانب أو في الخلف.",
+     "en": "Tie them in a neat knot at the side or back."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "whimsical-bow",
+   "category": "turban",
+   "difficulty": 2,
+   "minutes": 3,
+   "pins": 1,
+   "tags": [
+    "occasion"
+   ],
+   "name": {
+    "ar": "الفيونكة",
+    "en": "Whimsical Bow"
+   },
+   "summary": {
+    "ar": "الأطراف تُعقد على شكل فيونكة تحت الذقن أو جانبًا.",
+    "en": "The ends are tied into a bow under the chin or at the side."
+   },
+   "fabrics": {
+    "ar": "ساتان، شيفون، أورجانزا",
+    "en": "Satin, chiffon, organza"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي الطرحة بطرفين متساويين.",
+     "en": "Place the scarf with equal ends."
+    },
+    {
+     "ar": "ثبّتيها بدبوس عند الذقن حتى لا تتحرك.",
+     "en": "Pin at the chin to keep it in place."
+    },
+    {
+     "ar": "اعقدي الطرفين عقدة أولى تحت الذقن أو على الجانب.",
+     "en": "Tie a first knot under the chin or at the side."
+    },
+    {
+     "ar": "كوّني فيونكة من الطرفين ورتّبي حلقتيها.",
+     "en": "Form a bow with the ends and even out the loops."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "butterfly-style",
+   "category": "turban",
+   "difficulty": 3,
+   "minutes": 5,
+   "pins": 2,
+   "tags": [],
+   "name": {
+    "ar": "الفراشة",
+    "en": "Butterfly Style"
+   },
+   "summary": {
+    "ar": "مثلث تتقاطع أطرافه تحت الذقن وتُشكَّل كالأجنحة.",
+    "en": "A triangle whose ends cross under the chin and are shaped like wings."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "اطوي الطرحة على شكل مثلث وضعيها على الرأس.",
+     "en": "Fold the scarf into a triangle and place it on your head."
+    },
+    {
+     "ar": "تقاطعي بالطرفين تحت الذقن.",
+     "en": "Cross the ends under your chin."
+    },
+    {
+     "ar": "ثبّتي كل طرف على الكتف المقابل.",
+     "en": "Pin each end on the opposite shoulder."
+    },
+    {
+     "ar": "افردي الطرفين على الكتفين ليأخذا شكل الجناحين.",
+     "en": "Spread the ends over your shoulders to form wings."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "crown-style",
+   "category": "bridal",
+   "difficulty": 3,
+   "minutes": 6,
+   "pins": 4,
+   "tags": [
+    "wedding",
+    "occasion"
+   ],
+   "name": {
+    "ar": "لفة التاج",
+    "en": "Crown Style"
+   },
+   "summary": {
+    "ar": "تُجمع الطرحة إلى الخلف وتُرفع لشكل تاج، ويمكن إضافة تاج.",
+    "en": "The scarf is gathered back and lifted into a crown shape; a tiara can be added."
+   },
+   "fabrics": {
+    "ar": "غير مذكور في المصدر",
+    "en": "Not specified by the source"
+   },
+   "steps": [
+    {
+     "ar": "اجمعي الشعر في كعكة عالية، وارتدي بونيه.",
+     "en": "Gather your hair in a high bun and wear an underscarf."
+    },
+    {
+     "ar": "ضعي الطرحة وثبّتيها تحت الذقن.",
+     "en": "Place the scarf and pin under the chin."
+    },
+    {
+     "ar": "اجمعي القماش الزائد إلى الخلف فوق الكعكة.",
+     "en": "Gather the extra fabric back over the bun."
+    },
+    {
+     "ar": "ارفعيه وشكّليه على هيئة تاج وثبّتيه بالدبابيس.",
+     "en": "Lift and shape it into a crown, securing with pins."
+    },
+    {
+     "ar": "أضيفي تاجًا أو إكسسوارًا إن رغبتِ.",
+     "en": "Add a tiara or accessory if you like."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "classic-veil",
+   "category": "bridal",
+   "difficulty": 2,
+   "minutes": 6,
+   "pins": 4,
+   "tags": [
+    "wedding",
+    "occasion"
+   ],
+   "name": {
+    "ar": "الكلاسيكية مع طرحة العروس",
+    "en": "Classic Wrap & Veil"
+   },
+   "summary": {
+    "ar": "لفة كلاسيكية أنيقة مع طرحة زفاف مثبتة من الخلف.",
+    "en": "An elegant classic wrap with a bridal veil pinned at the back."
+   },
+   "fabrics": {
+    "ar": "شيفون",
+    "en": "Chiffon"
+   },
+   "steps": [
+    {
+     "ar": "نفّذي اللفة الكلاسيكية وثبّتيها جيدًا بالدبابيس.",
+     "en": "Do the classic wrap and secure it well with pins."
+    },
+    {
+     "ar": "ضعي طرحة الزفاف على قمة الرأس من الخلف.",
+     "en": "Place the bridal veil on the crown of your head, toward the back."
+    },
+    {
+     "ar": "ثبّتي الطرحة بدبابيس صغيرة مخفية في الحجاب.",
+     "en": "Secure the veil with small pins hidden in the hijab."
+    },
+    {
+     "ar": "وزّعي الطرحة بالتساوي على الكتفين والظهر.",
+     "en": "Spread the veil evenly over your shoulders and back."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "crystal-headpiece",
+   "category": "bridal",
+   "difficulty": 2,
+   "minutes": 6,
+   "pins": 3,
+   "tags": [
+    "wedding",
+    "occasion"
+   ],
+   "name": {
+    "ar": "مع إكسسوار كريستال",
+    "en": "Crystal Headpiece"
+   },
+   "summary": {
+    "ar": "قطعة كريستال تحت الحجاب تتدلى على الجبهة، أو كتاج فوقه.",
+    "en": "A crystal piece under the hijab that drapes on the forehead, or worn like a crown on top."
+   },
+   "fabrics": {
+    "ar": "شيفون",
+    "en": "Chiffon"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي البونيه وثبّتيه جيدًا حتى لا ينزلق الحجاب.",
+     "en": "Put on an underscarf and secure it so the hijab doesn't slip."
+    },
+    {
+     "ar": "ضعي قطعة الكريستال على الرأس بحيث تتدلى على الجبهة، أو اتركيها للخطوة الأخيرة لارتدائها فوق الحجاب.",
+     "en": "Place the crystal piece so it drapes on your forehead, or save it to wear over the hijab at the end."
+    },
+    {
+     "ar": "نفّذي لفة بسيطة فوقها وثبّتيها تحت الذقن.",
+     "en": "Do a simple wrap over it and pin under the chin."
+    },
+    {
+     "ar": "أظهري الجزء المتدلي بترتيب حافة الطرحة حوله.",
+     "en": "Reveal the dangling part by arranging the scarf edge around it."
+    },
+    {
+     "ar": "إن اخترتِ ارتداءها فوق الحجاب، ثبّتيها بدبابيس صغيرة على الجانبين.",
+     "en": "If wearing it on top, secure it with small pins on both sides."
+    }
+   ],
+   "tips": []
+  },
+  {
+   "id": "bridal-turban",
+   "category": "bridal",
+   "difficulty": 3,
+   "minutes": 6,
+   "pins": 0,
+   "tags": [
+    "wedding",
+    "occasion"
+   ],
+   "name": {
+    "ar": "تربان العروس المحتشم",
+    "en": "Modest Bridal Turban"
+   },
+   "summary": {
+    "ar": "تربان مع فستان برقبة عالية يغطي الرقبة والصدر.",
+    "en": "A turban paired with a high-neck dress that covers the neck and chest."
+   },
+   "fabrics": {
+    "ar": "شيفون",
+    "en": "Chiffon"
+   },
+   "steps": [
+    {
+     "ar": "ارتدي بونيه برقبة يغطي الشعر والرقبة.",
+     "en": "Wear a neck-covering underscarf."
+    },
+    {
+     "ar": "ضعي منتصف الطرحة على الجبهة والطرفين إلى الخلف.",
+     "en": "Place the middle on your forehead with the ends at the back."
+    },
+    {
+     "ar": "تقاطعي بالطرفين خلفًا ثم أعيديهما إلى الأمام وتقاطعي بهما فوق الجبهة.",
+     "en": "Cross the ends at the back, bring them forward and cross over the forehead."
+    },
+    {
+     "ar": "أعيديهما إلى الخلف وادسسيهما تحت الطبقات.",
+     "en": "Take them back and tuck under the layers."
+    },
+    {
+     "ar": "نسّقيه مع فستان برقبة عالية لتغطية الرقبة والصدر.",
+     "en": "Pair it with a high-neck dress to cover the neck and chest."
+    }
+   ],
+   "tips": []
+  }
+ ]
 }

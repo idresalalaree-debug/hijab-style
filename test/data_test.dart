@@ -19,7 +19,8 @@ void main() {
       expect(catIds, contains(s.categoryId), reason: s.id);
       expect(s.name.ar, isNotEmpty, reason: s.id);
       expect(s.name.en, isNotEmpty, reason: s.id);
-      expect(s.steps, isNotEmpty, reason: s.id);
+      expect(s.steps.length, greaterThanOrEqualTo(3), reason: s.id);
+      expect(s.summary.ar, isNotEmpty, reason: s.id);
       for (final st in s.steps) {
         expect(st.ar.trim(), isNotEmpty, reason: s.id);
         expect(st.en.trim(), isNotEmpty, reason: s.id);
@@ -27,8 +28,17 @@ void main() {
       if (s.hasImage) {
         expect(File(s.image!).existsSync(), isTrue, reason: 'missing image for ${s.id}');
         expect(s.credit?.license, isNotEmpty, reason: 'image without license: ${s.id}');
+        expect(s.credit!.url, startsWith('https://'), reason: s.id);
       }
     }
+  });
+
+  test('ships exactly 50 styles, every bundled image file is referenced', () {
+    final cat = StyleRepository.parseFeed(raw, remote: false)!;
+    expect(cat.styles.length, 50);
+    final referenced = cat.styles.where((s) => s.hasImage).map((s) => s.image).toSet();
+    final files = Directory('assets/images/styles').listSync().map((f) => f.path.replaceAll(r'\\', '/')).toSet();
+    expect(files, referenced);
   });
 
   test('remote feed: rejects non-https images, unknown categories, id clashes, newer schema', () {

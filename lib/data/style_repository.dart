@@ -31,7 +31,7 @@ class StyleRepository {
   StyleRepository(this.prefs, {AssetBundle? bundle, this.client}) : bundle = bundle ?? rootBundle;
 
   Future<StyleCatalog> loadLocal() async {
-    final raw = await bundle.loadString('assets/data/styles.json', cache: false);
+    final raw = await _loadBundled();
     final bundled = parseFeed(raw, remote: false)!;
     final cached = prefs.getString(_cacheKey);
     final remote = cached == null ? null : parseFeed(cached, remote: true);
@@ -54,7 +54,7 @@ class StyleRepository {
       if (feed == null) return null;
       if (body == prefs.getString(_cacheKey)) return null;
       await prefs.setString(_cacheKey, body);
-      final raw = await bundle.loadString('assets/data/styles.json', cache: false);
+      final raw = await _loadBundled();
       return merge(parseFeed(raw, remote: false)!, feed);
     } catch (_) {
       return null;
@@ -62,6 +62,11 @@ class StyleRepository {
       if (client == null) c.close();
     }
   }
+
+  // Decodes on the current isolate: loadString() hops to compute() for files >50 KB,
+  // which never completes inside widget tests, and parsing ~70 KB here is cheap.
+  Future<String> _loadBundled() async =>
+      utf8.decode((await bundle.load('assets/data/styles.json')).buffer.asUint8List());
 
   static StyleCatalog? parseFeed(String raw, {required bool remote}) {
     try {

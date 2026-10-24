@@ -47,9 +47,9 @@ void main() {
     await pumpApp(tester, state);
     await tester.tap(find.text('Explore'));
     await tester.pumpAndSettle();
-    await tester.enterText(find.byType(TextField), 'turban');
+    await tester.enterText(find.byType(TextField), 'khimar');
     await tester.pumpAndSettle();
-    expect(find.text('Modern Turban'), findsOneWidget);
+    expect(find.text('Khimar'), findsOneWidget);
     expect(find.text('1 style'), findsOneWidget);
     await tester.enterText(find.byType(TextField), 'zzzz');
     await tester.pumpAndSettle();

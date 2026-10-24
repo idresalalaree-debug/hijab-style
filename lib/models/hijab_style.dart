@@ -42,6 +42,9 @@ class PhotoCredit {
   final String url;
   const PhotoCredit({required this.photographer, required this.source, required this.license, required this.url});
 
+  /// "Name · Source", or just the source when the photographer's name is unknown.
+  String get label => [photographer, source].where((e) => e.isNotEmpty).join(' · ');
+
   static PhotoCredit? fromJson(Object? j) {
     if (j is! Map) return null;
     return PhotoCredit(

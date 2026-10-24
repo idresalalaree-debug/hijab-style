@@ -127,9 +127,9 @@ class StyleDetailScreen extends StatelessWidget {
                   body: style.tips.map((t) => '• ${t.of(locale)}').join('\n'),
                 ),
               ],
-              if (style.credit != null && style.credit!.photographer.isNotEmpty) ...[
+              if (style.credit != null) ...[
                 const SizedBox(height: 18),
-                Text('${s.photoBy} ${style.credit!.photographer} · ${style.credit!.source}',
+                Text('${s.photoBy}: ${style.credit!.label}',
                     style: TextStyle(fontSize: 12, color: cs.onSurfaceVariant)),
               ],
               const SizedBox(height: 110),

@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../l10n/strings.dart';
@@ -26,16 +28,17 @@ class _FadeSlideInState extends State<FadeSlideIn> with SingleTickerProviderStat
   late final AnimationController _c = AnimationController(vsync: this, duration: const Duration(milliseconds: 520));
   late final Animation<double> _a = CurvedAnimation(parent: _c, curve: Curves.easeOutCubic);
 
+  Timer? _delay;
+
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(milliseconds: 45 * widget.index.clamp(0, 10)), () {
-      if (mounted) _c.forward();
-    });
+    _delay = Timer(Duration(milliseconds: 45 * widget.index.clamp(0, 10)), _c.forward);
   }
 
   @override
   void dispose() {
+    _delay?.cancel();
     _c.dispose();
     super.dispose();
   }

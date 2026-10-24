@@ -12,14 +12,14 @@ class CreditsScreen extends StatelessWidget {
     final s = S.of(context);
     final locale = Localizations.localeOf(context);
     final cs = Theme.of(context).colorScheme;
-    final withPhoto = app.styles.where((e) => e.credit != null && e.credit!.photographer.isNotEmpty).toList();
+    final withPhoto = app.styles.where((e) => e.credit != null).toList();
     return Scaffold(
       appBar: AppBar(title: Text(s.credits)),
       body: ListView(padding: const EdgeInsets.fromLTRB(16, 8, 16, 24), children: [
         for (final st in withPhoto)
           ListTile(
             title: Text(st.name.of(locale)),
-            subtitle: Text('${st.credit!.photographer} · ${st.credit!.source} · ${st.credit!.license}\n${st.credit!.url}',
+            subtitle: Text('${st.credit!.label} · ${st.credit!.license}\n${st.credit!.url}',
                 style: TextStyle(color: cs.onSurfaceVariant, fontSize: 12.5)),
             isThreeLine: true,
           ),

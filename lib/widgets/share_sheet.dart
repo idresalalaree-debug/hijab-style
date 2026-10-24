@@ -149,9 +149,9 @@ class ShareCard extends StatelessWidget {
               '${s.difficulty(style.difficulty)} · ${s.minutes(style.minutes)} · ${s.stepsCount(style.steps.length)}',
               style: TextStyle(color: Colors.white.withValues(alpha: 0.88), fontSize: 13.5),
             ),
-            if (style.credit != null && style.credit!.photographer.isNotEmpty) ...[
+            if (style.credit != null) ...[
               const SizedBox(height: 8),
-              Text('${s.photoBy} ${style.credit!.photographer} · ${style.credit!.source}',
+              Text('${s.photoBy}: ${style.credit!.label}',
                   style: TextStyle(color: Colors.white.withValues(alpha: 0.6), fontSize: 10)),
             ],
           ]),

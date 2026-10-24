@@ -61,6 +61,7 @@ class S {
   String stepOf(int i, int n) => _t('الخطوة $i من $n', 'Step $i of $n');
   String get followMode => _t('ابدئي خطوة بخطوة', 'Start step by step');
   String get photoBy => _t('تصوير', 'Photo by');
+  String get illustrativePhoto => _t('صورة توضيحية للإطلالة، وليست اللفة نفسها', 'Illustrative photo, not this exact wrap');
   String get addFavorite => _t('أضيفي للمفضلة', 'Add to favorites');
   String get removeFavorite => _t('إزالة من المفضلة', 'Remove from favorites');
   String get share => _t('مشاركة', 'Share');

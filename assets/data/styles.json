@@ -252,7 +252,15 @@
      "en": "Spread the other end at the side to cover your shoulder and pin it."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/square-neck-wrap.webp",
+   "credit": {
+    "photographer": "keira burton",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-young-arab-lady-in-headscarf-standing-on-street-near-brick-building-6084282/"
+   },
+   "illustrative": true
   },
   {
    "id": "chest-covering-square",
@@ -343,7 +351,15 @@
      "en": "Tie both ends in a light knot behind the neck and tidy the front."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/square-back-knot.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/a-person-wearing-a-black-robe-and-red-head-covering-standing-in-front-of-a-pond-with-trees-and-pTnP9pWEvSA"
+   },
+   "illustrative": true
   },
   {
    "id": "minimal-satin-wrap",
@@ -549,7 +565,15 @@
      "ar": "العقدة خلف الرقبة تُبعد الضغط عن الأذنين، فتريح من ترتدي النظارات.",
      "en": "The knot sits behind the neck, keeping pressure off the ears for glasses wearers."
     }
-   ]
+   ],
+   "image": "assets/images/styles/pinless-pashmina.webp",
+   "credit": {
+    "photographer": "bymuratisikofficial",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/elegant-woman-in-hijab-standing-on-stone-steps-36168986/"
+   },
+   "illustrative": true
   },
   {
    "id": "pashmina-no-inner",
@@ -593,7 +617,15 @@
      "ar": "بدون بونيه قد ينزلق القماش؛ اختاري قماشًا غير لامع.",
      "en": "Without an underscarf fabric may slip; choose a matte fabric."
     }
-   ]
+   ],
+   "image": "assets/images/styles/pashmina-no-inner.webp",
+   "credit": {
+    "photographer": "abiola femi",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/elegant-portrait-of-woman-in-a-hijab-outdoors-39588074/"
+   },
+   "illustrative": true
   },
   {
    "id": "pleated-pashmina",
@@ -636,7 +668,15 @@
      "en": "Arrange the pleats so they stay straight without stretching."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/pleated-pashmina.webp",
+   "credit": {
+    "photographer": "cedric fauntleroy",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/a-woman-in-a-hijab-smiling-8155047/"
+   },
+   "illustrative": true
   },
   {
    "id": "wavy-pashmina",
@@ -679,7 +719,15 @@
      "en": "Repeat on the other side, then finish with the long end around the head."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/wavy-pashmina.webp",
+   "credit": {
+    "photographer": "cedric fauntleroy",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/a-close-up-shot-of-a-woman-wearing-a-hijab-8155031/"
+   },
+   "illustrative": true
   },
   {
    "id": "silk-pashmina",
@@ -827,7 +875,15 @@
      "en": "Tuck the remaining fabric behind your head."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/side-pinned-pashmina.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/person-in-white-hijab-and-black-long-sleeve-shirt-fBlplGY3TxA"
+   },
+   "illustrative": true
   },
   {
    "id": "instant-pashmina",
@@ -868,7 +924,15 @@
      "en": "Arrange the long end around your neck or over your shoulder."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/instant-pashmina.webp",
+   "credit": {
+    "photographer": "ahmad ghaneey",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/confident-woman-in-hijab-standing-outdoors-38170323/"
+   },
+   "illustrative": true
   },
   {
    "id": "neck-wrap",
@@ -960,7 +1024,15 @@
      "en": "Tie them in a simple knot at the side and tidy the ends."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/side-knot.webp",
+   "credit": {
+    "photographer": "moph",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/chic-woman-in-hijab-posing-against-wall-in-cairo-31861865/"
+   },
+   "illustrative": true
   },
   {
    "id": "tucked-in-wrap",
@@ -1453,7 +1525,15 @@
      "en": "Pin it at the shoulder and arrange the layers to cascade."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/multi-layered.webp",
+   "credit": {
+    "photographer": "majestic project",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/woman-in-white-hijab-7451485/"
+   },
+   "illustrative": true
   },
   {
    "id": "quick-two-layer",
@@ -1538,7 +1618,15 @@
      "en": "Arrange the ends around your neck or shoulders."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/bandana-underlayer.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/a-woman-in-a-purple-hijab-picking-flowers-from-a-tree-SdchQSCd7wc"
+   },
+   "illustrative": true
   },
   {
    "id": "simple-back-knot-scarf",
@@ -1588,7 +1676,15 @@
      "ar": "هذه اللفة لا تغطي الرقبة؛ ارتديها فوق بونيه برقبة إن رغبتِ.",
      "en": "This style leaves the neck uncovered; wear it over a neck-covering underscarf if you prefer."
     }
-   ]
+   ],
+   "image": "assets/images/styles/simple-back-knot-scarf.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/a-woman-in-a-hijab-standing-on-a-balcony-QoppQTk_sS4"
+   },
+   "illustrative": true
   },
   {
    "id": "earring-showing",
@@ -1725,7 +1821,15 @@
      "en": "Bring the ends forward and arrange them into a triangle on the chest."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/classic-arabic.webp",
+   "credit": {
+    "photographer": "salis a muhammad",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/confident-woman-in-stylish-hijab-outdoors-33519724/"
+   },
+   "illustrative": true
   },
   {
    "id": "khimar",
@@ -1920,7 +2024,15 @@
      "ar": "دراسة أكاديمية (2025) ذكرت أن بعض الشابات يرين أنها لا تحقق الستر الكامل؛ يمكن ارتداء طرحة فوقها.",
      "en": "A 2025 academic study notes some young women feel it isn't fully modest; you can wear a scarf over it."
     }
-   ]
+   ],
+   "image": "assets/images/styles/balaclava-hijab.webp",
+   "credit": {
+    "photographer": "stylish",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-woman-in-hijab-relaxing-on-bench-outdoors-36513014/"
+   },
+   "illustrative": true
   },
   {
    "id": "modern-turban",
@@ -1970,7 +2082,15 @@
      "ar": "التربان لا يغطي الرقبة؛ يمكن ارتداء بونيه برقبة تحته.",
      "en": "A turban leaves the neck uncovered; wear a neck-covering underscarf if you prefer."
     }
-   ]
+   ],
+   "image": "assets/images/styles/modern-turban.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/woman-in-black-hijab-headdress-during-daytime-WR5hZDLv79A"
+   },
+   "illustrative": true
   },
   {
    "id": "chiffon-turban",
@@ -2015,7 +2135,15 @@
      "en": "Tuck the ends under the wrap at the back."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/chiffon-turban.webp",
+   "credit": {
+    "photographer": "werner pfennig",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/a-woman-wearing-a-hijab-6477476/"
+   },
+   "illustrative": true
   },
   {
    "id": "criss-cross-turban",
@@ -2060,7 +2188,15 @@
      "en": "Tuck the ends under the layers."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/criss-cross-turban.webp",
+   "credit": {
+    "photographer": "seyda nur yuce",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/a-woman-in-black-hijab-sitting-near-the-bare-tree-14253579/"
+   },
+   "illustrative": true
   },
   {
    "id": "top-knot",
@@ -2105,7 +2241,15 @@
      "en": "Tuck the remaining ends under the wrap."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/top-knot.webp",
+   "credit": {
+    "photographer": "caspersomia",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/young-woman-standing-on-an-escalator-20433552/"
+   },
+   "illustrative": true
   },
   {
    "id": "parisian-knot",
@@ -2150,7 +2294,15 @@
      "en": "Tie them in a neat knot at the side or back."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/parisian-knot.webp",
+   "credit": {
+    "photographer": "arif isomoto",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/smiling-woman-in-white-and-pink-floral-blouse-standing-near-green-plants-10145415/"
+   },
+   "illustrative": true
   },
   {
    "id": "whimsical-bow",
@@ -2195,7 +2347,15 @@
      "en": "Form a bow with the ends and even out the loops."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/whimsical-bow.webp",
+   "credit": {
+    "photographer": "elkayslense",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/stylish-woman-wearing-traditional-attire-outdoors-36204399/"
+   },
+   "illustrative": true
   },
   {
    "id": "butterfly-style",
@@ -2238,7 +2398,15 @@
      "en": "Spread the ends over your shoulders to form wings."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/butterfly-style.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/a-woman-in-a-blue-veil-sitting-on-a-bench-f-DrspzOsJQ"
+   },
+   "illustrative": true
   },
   {
    "id": "crown-style",
@@ -2284,7 +2452,15 @@
      "en": "Add a tiara or accessory if you like."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/crown-style.webp",
+   "credit": {
+    "photographer": "ari mustofa",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/elegant-woman-in-hijab-with-bokeh-background-34414157/"
+   },
+   "illustrative": true
   },
   {
    "id": "classic-veil",
@@ -2326,7 +2502,15 @@
      "en": "Spread the veil evenly over your shoulders and back."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/classic-veil.webp",
+   "credit": {
+    "photographer": "mhd_photos",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/elegant-woman-in-white-abaya-outdoors-31049717/"
+   },
+   "illustrative": true
   },
   {
    "id": "crystal-headpiece",
@@ -2372,7 +2556,15 @@
      "en": "If wearing it on top, secure it with small pins on both sides."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/crystal-headpiece.webp",
+   "credit": {
+    "photographer": "moph",
+    "source": "Pexels",
+    "license": "Pexels License",
+    "url": "https://www.pexels.com/photo/stylish-woman-in-hijab-outside-coffee-shop-31861864/"
+   },
+   "illustrative": true
   },
   {
    "id": "bridal-turban",
@@ -2418,7 +2610,15 @@
      "en": "Pair it with a high-neck dress to cover the neck and chest."
     }
    ],
-   "tips": []
+   "tips": [],
+   "image": "assets/images/styles/bridal-turban.webp",
+   "credit": {
+    "photographer": "",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/woman-in-black-hijab-sitting-on-brown-wooden-bench-93vwMXC1r-w"
+   },
+   "illustrative": true
   }
  ]
 }

@@ -129,6 +129,15 @@ class StyleDetailScreen extends StatelessWidget {
               ],
               if (style.credit != null) ...[
                 const SizedBox(height: 18),
+                if (style.illustrative)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 4),
+                    child: Row(children: [
+                      Icon(Icons.info_outline_rounded, size: 14, color: cs.onSurfaceVariant),
+                      const SizedBox(width: 6),
+                      Expanded(child: Text(s.illustrativePhoto, style: TextStyle(fontSize: 12, color: cs.onSurfaceVariant))),
+                    ]),
+                  ),
                 Text('${s.photoBy}: ${style.credit!.label}',
                     style: TextStyle(fontSize: 12, color: cs.onSurfaceVariant)),
               ],

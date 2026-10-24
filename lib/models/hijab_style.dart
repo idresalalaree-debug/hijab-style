@@ -74,6 +74,9 @@ class HijabStyle {
   /// Asset path (bundled) or https URL (remote styles). Null → designed fallback card.
   final String? image;
   final PhotoCredit? credit;
+
+  /// The photo shows a general hijab look, not this exact wrap.
+  final bool illustrative;
   final bool isRemote;
 
   const HijabStyle({
@@ -90,6 +93,7 @@ class HijabStyle {
     required this.tags,
     this.image,
     this.credit,
+    this.illustrative = false,
     this.isRemote = false,
   });
 
@@ -123,6 +127,7 @@ class HijabStyle {
         tags: ((j['tags'] ?? const []) as List).map((e) => e.toString()).toList(),
         image: validImage,
         credit: PhotoCredit.fromJson(j['credit']),
+        illustrative: j['illustrative'] == true,
         isRemote: remote,
       );
     } catch (_) {

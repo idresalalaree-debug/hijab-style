@@ -51,7 +51,9 @@ jobs:
           arch: x86_64
           profile: pixel_6
           disable-animations: false
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -memory 4096
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -memory 4096 -feature -Vulkan
+          # The emulator's software Vulkan (SwiftShader via gfxstream) crashed the whole emulator a minute
+          # after Flutter started rendering; without guest Vulkan, Flutter renders through OpenGL ES.
           script: timeout 1500 bash tool/smoke.sh
       - name: Publish report to ci-reports branch
         if: always()

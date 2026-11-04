@@ -56,7 +56,7 @@ jobs:
       - name: Publish report to ci-reports branch
         if: always()
         run: |
-          mkdir -p report && cd report && echo "$GITHUB_SHA" > SOURCE_SHA
+          mkdir -p report && cp smoke.apk report/hijab-style-test.apk 2>/dev/null; cd report && echo "$GITHUB_SHA" > SOURCE_SHA
           git init -q -b ci-reports && git add . \
             && git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -qm "Smoke report for $GITHUB_SHA" \
             && git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ci-reports

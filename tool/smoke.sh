@@ -4,7 +4,8 @@
 set -u
 R=report; mkdir -p $R
 # Every adb call gets a timeout so a hung emulator still produces a report instead of eating the job.
-adb() { timeout 60 command adb "$@"; }
+ADB=$(command -v adb)
+adb() { timeout 60 "$ADB" "$@"; }
 PKG=com.hijabstyle.app
 shot() { adb exec-out screencap -p > "$R/$1.png"; }
 swipe_up() { adb shell input swipe 540 1700 540 700 250; sleep 1.2; }
@@ -35,7 +36,7 @@ adb shell settings put global window_animation_scale 1
 adb install -r smoke.apk > $R/install.txt 2>&1
 adb logcat -c
 # Stream logcat from the start so logs survive even if the device stops answering later.
-command adb logcat -v time > $R/logcat-stream.txt 2>&1 &
+"$ADB" logcat -v time > $R/logcat-stream.txt 2>&1 &
 adb shell am start -W -n $PKG/com.hijabstyle.hijab_style.MainActivity > $R/start.txt 2>&1
 sleep 6; shot 00-launch-6s
 sleep 14

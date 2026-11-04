@@ -45,16 +45,14 @@ class StyleImage extends StatelessWidget {
         frameBuilder: _fadeIn,
       );
     } else {
-      final dpr = MediaQuery.devicePixelRatioOf(context);
-      child = LayoutBuilder(
-        builder: (context, c) => Image.asset(
-          style.image!,
-          fit: BoxFit.cover,
-          // Decode at display size to keep memory low on long grids.
-          cacheWidth: c.maxWidth.isFinite ? (c.maxWidth * dpr).round() : null,
-          errorBuilder: (_, _, _) => fallback,
-          frameBuilder: _fadeIn,
-        ),
+      // Bundled photos are only 600 px wide, so they are decoded once at full size. Sizing the
+      // decode from layout constraints re-decoded the photo on every frame of Hero flights and
+      // the stretching detail header.
+      child = Image.asset(
+        style.image!,
+        fit: BoxFit.cover,
+        errorBuilder: (_, _, _) => fallback,
+        frameBuilder: _fadeIn,
       );
     }
     return ClipRRect(borderRadius: radius, child: child);

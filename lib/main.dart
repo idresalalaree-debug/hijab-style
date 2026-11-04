@@ -17,7 +17,10 @@ Future<void> main() async {
   runApp(HijabStyleApp(state: state));
   // Optional: pick up new styles from the remote feed; silently ignored offline.
   state.refreshRemote();
-  Ads.instance.start();
+  // Keep consent/ads work out of the first frames so startup and first scroll stay smooth.
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    Future.delayed(const Duration(seconds: 2), Ads.instance.start);
+  });
 }
 
 Stream<LicenseEntry> _fontLicenses() async* {

@@ -57,3 +57,7 @@ grep -E "ANR in|Application Not Responding|FATAL EXCEPTION|E/flutter|Skipped [0-
 adb shell dumpsys activity anr > $R/anr.txt 2>&1 || true
 adb shell ls /data/anr >> $R/anr.txt 2>&1 || true
 echo done >> $R/steps.txt
+# Fail the job when the app crashed or hung, so a broken release build can't look green.
+if grep -qE "FATAL EXCEPTION|ANR in $PKG" $R/logcat.txt || [ -z "$(adb shell pidof $PKG)" ]; then
+  echo "SMOKE FAILED" >> $R/steps.txt; exit 1
+fi

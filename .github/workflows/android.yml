@@ -44,4 +44,4 @@ jobs:
           echo "$GITHUB_SHA" > out/SOURCE_SHA
           cd out && git init -q -b ci-builds && git add . \
             && git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -qm "Unsigned build of $GITHUB_SHA" \
-            && git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ci-builds
+            && for i in 1 2 3; do git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ci-builds && break; sleep 15; done

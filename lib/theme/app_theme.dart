@@ -34,7 +34,13 @@ class AppTheme {
   /// Display family: El Messiri (Arabic) / Playfair Display (Latin).
   static String displayFamily(Locale l) => _isAr(l) ? 'ElMessiri' : 'PlayfairDisplay';
 
-  static ThemeData light(Locale locale) => _build(
+  // ThemeData is rebuilt by MaterialApp on every AppState change (favorites, tried…);
+  // reusing the same instance keeps AnimatedTheme from lerping the whole tree each time.
+  static final _cache = <String, ThemeData>{};
+  static ThemeData light(Locale locale) => _cache.putIfAbsent('l-${locale.languageCode}', () => _light(locale));
+  static ThemeData dark(Locale locale) => _cache.putIfAbsent('d-${locale.languageCode}', () => _dark(locale));
+
+  static ThemeData _light(Locale locale) => _build(
         locale,
         ColorScheme(
           brightness: Brightness.light,
@@ -62,7 +68,7 @@ class AppTheme {
         ),
       );
 
-  static ThemeData dark(Locale locale) => _build(
+  static ThemeData _dark(Locale locale) => _build(
         locale,
         ColorScheme(
           brightness: Brightness.dark,

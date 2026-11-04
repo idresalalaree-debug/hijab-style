@@ -6,7 +6,7 @@ import '../state/app_state.dart';
 import '../theme/app_theme.dart';
 import 'credits_screen.dart';
 
-const appVersion = '1.0.0';
+const appVersion = '1.0.1';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});

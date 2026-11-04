@@ -1,0 +1,19 @@
+launch: pid= focus=
+scrolled: pid= focus=
+tap 'Style of the day|لفة اليوم' -> NOT FOUND
+detail: pid= focus=
+tap 'Start step by step|ابدئي خطوة بخطوة' -> NOT FOUND
+follow: pid= focus=
+tap '^(Next|التالي)' -> NOT FOUND
+tap '^(Next|التالي)' -> NOT FOUND
+after-back: pid= focus=
+tap '^(Explore|استكشفي)' -> NOT FOUND
+explore: pid= focus=
+tap '^(Favorites|المفضلة)' -> NOT FOUND
+tap '^(Settings|الإعدادات)' -> NOT FOUND
+settings: pid= focus=
+tap '^(Home|الرئيسية)' -> NOT FOUND
+after-monkey: pid= focus=
+adb: device 'emulator-5554' not found
+done
+SMOKE FAILED

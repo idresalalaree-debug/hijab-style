@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.hijabstyle.app/com.hijabstyle.hijab_style.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.hijabstyle.app/com.hijabstyle.hijab_style.MainActivity
+TotalTime: 6231
+WaitTime: 6277
+Complete

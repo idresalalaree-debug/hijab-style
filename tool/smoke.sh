@@ -50,6 +50,10 @@ tap '^(Explore|استكشفي)'; swipe_up; swipe_up; alive explore; shot 09-expl
 tap '^(Favorites|المفضلة)'; shot 10-favorites
 tap '^(Settings|الإعدادات)'; swipe_up; alive settings; shot 11-settings
 tap '^(Home|الرئيسية)'; swipe_up; swipe_up; swipe_up; shot 12-home-again
+# Random input like Play's review robot: 4000 taps/swipes/back presses inside the app only.
+adb shell monkey -p $PKG -s 2026 --throttle 120 --pct-syskeys 0 --pct-appswitch 0 --ignore-security-exceptions -v 4000 > $R/monkey.txt 2>&1
+alive after-monkey; shot 13-after-monkey
+tail -3 $R/monkey.txt >> $R/steps.txt
 sleep 5
 adb shell dumpsys gfxinfo $PKG > $R/gfxinfo.txt
 adb logcat -d > $R/logcat.txt
@@ -58,6 +62,6 @@ adb shell dumpsys activity anr > $R/anr.txt 2>&1 || true
 adb shell ls /data/anr >> $R/anr.txt 2>&1 || true
 echo done >> $R/steps.txt
 # Fail the job when the app crashed or hung, so a broken release build can't look green.
-if grep -qE "FATAL EXCEPTION|ANR in $PKG" $R/logcat.txt || [ -z "$(adb shell pidof $PKG)" ]; then
+if grep -qE "FATAL EXCEPTION|ANR in $PKG|E/flutter" $R/logcat.txt || grep -q "CRASH\|NOT RESPONDING" $R/monkey.txt || [ -z "$(adb shell pidof $PKG)" ]; then
   echo "SMOKE FAILED" >> $R/steps.txt; exit 1
 fi

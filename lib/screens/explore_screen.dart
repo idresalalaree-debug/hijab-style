@@ -104,17 +104,18 @@ class _ExploreScreenState extends State<ExploreScreen> {
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
-              child: Row(children: [
-                for (final d in [1, 2, 3]) ...[
+              child: Wrap(spacing: 8, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
+                for (final d in [1, 2, 3])
                   FilterChip(
                     label: Text(s.difficulty(d)),
                     selected: _difficulty == d,
                     onSelected: (v) => setState(() => _difficulty = v ? d : null),
                   ),
-                  const SizedBox(width: 8),
-                ],
-                const Spacer(),
-                Text(s.resultsCount(results.length), style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
+                Padding(
+                  padding: const EdgeInsetsDirectional.only(start: 4),
+                  child: Text(s.resultsCount(results.length),
+                      style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
+                ),
               ]),
             ),
           ),

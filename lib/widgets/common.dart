@@ -76,7 +76,10 @@ class MetaPill extends StatelessWidget {
       child: Row(mainAxisSize: MainAxisSize.min, children: [
         Icon(icon, size: 14, color: fg),
         const SizedBox(width: 5),
-        Text(label, style: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w500, color: fg)),
+        Flexible(
+          child: Text(label,
+              maxLines: 1, overflow: TextOverflow.ellipsis, style: TextStyle(fontSize: 12.5, fontWeight: FontWeight.w500, color: fg)),
+        ),
       ]),
     );
   }

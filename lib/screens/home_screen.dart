@@ -192,15 +192,25 @@ class _StyleOfDayCard extends StatelessWidget {
                         style: TextStyle(color: Colors.white.withValues(alpha: 0.85), fontSize: 14, height: 1.45)),
                     const SizedBox(height: 12),
                     Row(children: [
-                      MetaPill(icon: Icons.schedule_rounded, label: s.minutes(style.minutes), onImage: true),
-                      const SizedBox(width: 6),
-                      MetaPill(icon: Icons.signal_cellular_alt_rounded, label: s.difficulty(style.difficulty), onImage: true),
-                      const Spacer(),
+                      // Pills wrap under each other on narrow phones / large text instead of overflowing.
+                      Expanded(
+                        child: Wrap(spacing: 6, runSpacing: 6, children: [
+                          MetaPill(icon: Icons.schedule_rounded, label: s.minutes(style.minutes), onImage: true),
+                          MetaPill(icon: Icons.signal_cellular_alt_rounded, label: s.difficulty(style.difficulty), onImage: true),
+                        ]),
+                      ),
+                      const SizedBox(width: 8),
                       Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                        constraints: const BoxConstraints(maxWidth: 170),
+                        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
                         decoration: BoxDecoration(gradient: Brand.roseGoldGradient, borderRadius: BorderRadius.circular(30)),
                         child: Row(mainAxisSize: MainAxisSize.min, children: [
-                          Text(s.startNow, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
+                          Flexible(
+                            child: Text(s.startNow,
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700)),
+                          ),
                           const SizedBox(width: 4),
                           const Icon(Icons.arrow_forward_rounded, color: Colors.white, size: 18),
                         ]),
@@ -278,8 +288,10 @@ class _CategoryStrip extends StatelessWidget {
   Widget build(BuildContext context) {
     final locale = Localizations.localeOf(context);
     final cs = Theme.of(context).colorScheme;
+    // Icon tile + gap + one label line that grows with the user's font size.
+    final labelHeight = MediaQuery.textScalerOf(context).scale(13) * 1.5;
     return SizedBox(
-      height: 104,
+      height: 64 + 8 + labelHeight + 10,
       child: ListView.separated(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         scrollDirection: Axis.horizontal,
